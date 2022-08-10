@@ -1,0 +1,221 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 350576 bytes for Chunk::new
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:390), pid=14232, tid=0x00000000000026bc
+#
+# JRE version: OpenJDK Runtime Environment (8.0) (build 1.8.0-adoptopenjdk-_2018_05_19_00_59-b00)
+# Java VM: OpenJDK 64-Bit Server VM (25.71-b00 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000001e88d000):  JavaThread "C2 CompilerThread2" daemon [_thread_in_native, id=9916, stack(0x00000000200e0000,0x00000000201e0000)]
+
+Stack: [0x00000000200e0000,0x00000000201e0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+Current CompileTask:
+C2:   1195 1517       4       java.io.DataInputStream::readUTF (501 bytes)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x000000001e916800 JavaThread "Service Thread" daemon [_thread_blocked, id=18604, stack(0x00000000202e0000,0x00000000203e0000)]
+  0x000000001e898000 JavaThread "C1 CompilerThread3" daemon [_thread_blocked, id=264, stack(0x00000000201e0000,0x00000000202e0000)]
+=>0x000000001e88d000 JavaThread "C2 CompilerThread2" daemon [_thread_in_native, id=9916, stack(0x00000000200e0000,0x00000000201e0000)]
+  0x000000001e880800 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=12220, stack(0x000000001ffe0000,0x00000000200e0000)]
+  0x000000001e87c000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=4996, stack(0x000000001fee0000,0x000000001ffe0000)]
+  0x000000001e87b000 JavaThread "Attach Listener" daemon [_thread_blocked, id=9196, stack(0x000000001fde0000,0x000000001fee0000)]
+  0x000000001e87a000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=9896, stack(0x000000001fce0000,0x000000001fde0000)]
+  0x000000001d191800 JavaThread "Finalizer" daemon [_thread_blocked, id=15084, stack(0x000000001fad0000,0x000000001fbd0000)]
+  0x000000001d18a800 JavaThread "Reference Handler" daemon [_thread_blocked, id=18036, stack(0x000000001f9d0000,0x000000001fad0000)]
+  0x00000000033e5000 JavaThread "main" [_thread_in_native, id=1456, stack(0x00000000032e0000,0x00000000033e0000)]
+
+Other Threads:
+  0x00000000034dc800 VMThread [stack: 0x000000001f8d0000,0x000000001f9d0000] [id=3264]
+  0x000000001e8d0800 WatcherThread [stack: 0x00000000203e0000,0x00000000204e0000] [id=19780]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 76288K, used 38278K [0x000000076af00000, 0x0000000770400000, 0x00000007c0000000)
+  eden space 65536K, 58% used [0x000000076af00000,0x000000076d461908,0x000000076ef00000)
+  from space 10752K, 0% used [0x000000076f980000,0x000000076f980000,0x0000000770400000)
+  to   space 10752K, 0% used [0x000000076ef00000,0x000000076ef00000,0x000000076f980000)
+ ParOldGen       total 175104K, used 0K [0x00000006c0c00000, 0x00000006cb700000, 0x000000076af00000)
+  object space 175104K, 0% used [0x00000006c0c00000,0x00000006c0c00000,0x00000006cb700000)
+ Metaspace       used 16336K, capacity 16668K, committed 17024K, reserved 1067008K
+  class space    used 1922K, capacity 2050K, committed 2176K, reserved 1048576K
+
+Card table byte_map: [0x00000000128a0000,0x00000000130a0000] byte_map_base: 0x000000000f29a000
+
+Marking Bits: (ParMarkBitMap*) 0x000000006c12be50
+ Begin Bits: [0x0000000014000000, 0x0000000017fd0000)
+ End Bits:   [0x0000000017fd0000, 0x000000001bfa0000)
+
+Polling page: 0x00000000013f0000
+
+CodeCache: size=245760Kb used=5165Kb max_used=5169Kb free=240594Kb
+ bounds [0x00000000034e0000, 0x00000000039f0000, 0x00000000124e0000]
+ total_blobs=1976 nmethods=1563 adapters=327
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 1.165 Thread 0x000000001e898000 nmethod 1558 0x00000000039e9ed0 code [0x00000000039ea060, 0x00000000039ea4b8]
+Event: 1.165 Thread 0x000000001e898000 1559       3       java.util.ArrayDeque::add (7 bytes)
+Event: 1.165 Thread 0x000000001e898000 nmethod 1559 0x00000000039ea690 code [0x00000000039ea800, 0x00000000039ea9a8]
+Event: 1.165 Thread 0x000000001e880800 nmethod 1548 0x00000000039ee050 code [0x00000000039ee1a0, 0x00000000039eeb88]
+Event: 1.166 Thread 0x000000001e898000 1561       3       java.util.zip.ZipEntry::getSize (5 bytes)
+Event: 1.166 Thread 0x000000001e898000 nmethod 1561 0x00000000039edd50 code [0x00000000039edea0, 0x00000000039edff0]
+Event: 1.166 Thread 0x000000001e898000 1562       3       java.lang.String::startsWith (72 bytes)
+Event: 1.167 Thread 0x000000001e898000 nmethod 1562 0x00000000039ed6d0 code [0x00000000039ed840, 0x00000000039edb70]
+Event: 1.173 Thread 0x000000001e898000 1563       3       com.sun.crypto.provider.AESCrypt::mul4 (181 bytes)
+Event: 1.173 Thread 0x000000001e898000 nmethod 1563 0x00000000039ec1d0 code [0x00000000039ec3e0, 0x00000000039ece50]
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (10 events):
+Event: 0.633 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000003862838 method=sun.nio.fs.WindowsPathParser.isSlash(C)Z @ 9
+Event: 0.672 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000376ced8 method=java.util.HashMap.putVal(ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; @ 236
+Event: 0.715 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000035fd8c0 method=java.lang.CharacterData.of(I)Ljava/lang/CharacterData; @ 4
+Event: 0.721 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000003697d0c method=sun.nio.cs.UTF_8$Encoder.encode([CII[B)I @ 33
+Event: 0.808 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000391ff2c method=java.io.ByteArrayInputStream.read([BII)I @ 63
+Event: 0.814 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000388f2d4 method=java.lang.CharacterDataLatin1.digit(II)I @ 82
+Event: 1.122 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000037244fc method=java.lang.CharacterDataLatin1.isWhitespace(I)Z @ 14
+Event: 1.123 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000393bad0 method=java.lang.String.toLowerCase(Ljava/util/Locale;)Ljava/lang/String; @ 226
+Event: 1.131 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x000000000384a1b4 method=java.lang.String.indexOf([CII[CIII)I @ 27
+Event: 1.164 Thread 0x00000000033e5000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000000036af65c method=java.lang.String.startsWith(Ljava/lang/String;I)Z @ 25
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (10 events):
+Event: 0.599 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c370d08) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 0.599 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c3713c0) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 0.600 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c374600) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 0.600 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c374cf0) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 0.600 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c3758a8) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 0.600 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c375fd8) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 0.601 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c379270) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 0.601 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c379950) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 0.601 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c37a508) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 0.601 Thread 0x00000000033e5000 Exception <a 'sun/nio/fs/WindowsException'> (0x000000076c37ac20) thrown at [C:\Users\jenkins\workspace\openjdk8_build_x86-64_windows\openjdk\hotspot\src\share\vm\prims\jni.cpp, line 709]
+
+Events (10 events):
+Event: 1.167 loading class com/sun/crypto/provider/GaloisCounterMode
+Event: 1.167 loading class com/sun/crypto/provider/GaloisCounterMode done
+Event: 1.167 loading class com/sun/crypto/provider/CipherFeedback
+Event: 1.167 loading class com/sun/crypto/provider/CipherFeedback done
+Event: 1.167 loading class com/sun/crypto/provider/OutputFeedback
+Event: 1.167 loading class com/sun/crypto/provider/OutputFeedback done
+Event: 1.167 loading class com/sun/crypto/provider/PCBC
+Event: 1.167 loading class com/sun/crypto/provider/PCBC done
+Event: 1.167 loading class javax/crypto/NoSuchPaddingException
+Event: 1.167 loading class javax/crypto/NoSuchPaddingException done
+
+
+Dynamic libraries:
+0x00007ff7598b0000 - 0x00007ff7598e5000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe
+0x00007ffd56cd0000 - 0x00007ffd56ec5000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffd55700000 - 0x00007ffd557be000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffd546a0000 - 0x00007ffd54968000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffd54ee0000 - 0x00007ffd54f8c000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffd55090000 - 0x00007ffd5512e000 	C:\Windows\System32\msvcrt.dll
+0x00007ffd55480000 - 0x00007ffd5551b000 	C:\Windows\System32\sechost.dll
+0x00007ffd54da0000 - 0x00007ffd54eca000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffd55130000 - 0x00007ffd552d1000 	C:\Windows\System32\USER32.dll
+0x00007ffd54ad0000 - 0x00007ffd54af2000 	C:\Windows\System32\win32u.dll
+0x00007ffd556d0000 - 0x00007ffd556fb000 	C:\Windows\System32\GDI32.dll
+0x00007ffd54590000 - 0x00007ffd5469d000 	C:\Windows\System32\gdi32full.dll
+0x00007ffd54410000 - 0x00007ffd544ad000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffd54970000 - 0x00007ffd54a70000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffd3c910000 - 0x00007ffd3cbaa000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007ffd55050000 - 0x00007ffd55080000 	C:\Windows\System32\IMM32.DLL
+0x000000006c1b0000 - 0x000000006c282000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\jre\bin\msvcr100.dll
+0x000000006b960000 - 0x000000006c1a9000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\jre\bin\server\jvm.dll
+0x00007ffd54ed0000 - 0x00007ffd54ed8000 	C:\Windows\System32\PSAPI.DLL
+0x00007ffd4db80000 - 0x00007ffd4db8a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffd48400000 - 0x00007ffd48427000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffd4efe0000 - 0x00007ffd4efe9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffd56c00000 - 0x00007ffd56c6b000 	C:\Windows\System32\WS2_32.dll
+0x00007ffd40640000 - 0x00007ffd4064f000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\jre\bin\verify.dll
+0x00007ffd2f880000 - 0x00007ffd2f8a9000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\jre\bin\java.dll
+0x00007ffd2f860000 - 0x00007ffd2f876000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\jre\bin\zip.dll
+0x00007ffd56400000 - 0x00007ffd56b44000 	C:\Windows\System32\SHELL32.dll
+0x00007ffd524f0000 - 0x00007ffd52c84000 	C:\Windows\SYSTEM32\windows.storage.dll
+0x00007ffd55840000 - 0x00007ffd55b95000 	C:\Windows\System32\combase.dll
+0x00007ffd53e30000 - 0x00007ffd53e5e000 	C:\Windows\SYSTEM32\Wldp.dll
+0x00007ffd552e0000 - 0x00007ffd5538d000 	C:\Windows\System32\SHCORE.dll
+0x00007ffd54ff0000 - 0x00007ffd55045000 	C:\Windows\System32\shlwapi.dll
+0x00007ffd54320000 - 0x00007ffd5433f000 	C:\Windows\SYSTEM32\profapi.dll
+0x00007ffd2f340000 - 0x00007ffd2f35a000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\jre\bin\net.dll
+0x00007ffd53b20000 - 0x00007ffd53b8a000 	C:\Windows\system32\mswsock.dll
+0x00007ffd2f320000 - 0x00007ffd2f331000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\jre\bin\nio.dll
+0x00007ffcdb950000 - 0x00007ffcdb974000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\jre\bin\sunec.dll
+0x00007ffd53d90000 - 0x00007ffd53da8000 	C:\Windows\SYSTEM32\CRYPTSP.dll
+0x00007ffd53440000 - 0x00007ffd53474000 	C:\Windows\system32\rsaenh.dll
+0x00007ffd543e0000 - 0x00007ffd54407000 	C:\Windows\System32\bcrypt.dll
+0x00007ffd542a0000 - 0x00007ffd542ce000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007ffd544b0000 - 0x00007ffd54532000 	C:\Windows\System32\bcryptprimitives.dll
+0x00007ffd53d80000 - 0x00007ffd53d8c000 	C:\Windows\SYSTEM32\CRYPTBASE.dll
+0x00007ffd537b0000 - 0x00007ffd537eb000 	C:\Windows\SYSTEM32\IPHLPAPI.DLL
+0x00007ffd55080000 - 0x00007ffd55088000 	C:\Windows\System32\NSI.dll
+0x00007ffd4e3c0000 - 0x00007ffd4e3d7000 	C:\Windows\SYSTEM32\dhcpcsvc6.DLL
+0x00007ffd4e340000 - 0x00007ffd4e35d000 	C:\Windows\SYSTEM32\dhcpcsvc.DLL
+0x00007ffd537f0000 - 0x00007ffd538bb000 	C:\Windows\SYSTEM32\DNSAPI.dll
+0x00007ffd40630000 - 0x00007ffd4063b000 	D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\jre\bin\sunmscapi.dll
+0x00007ffd54b00000 - 0x00007ffd54c56000 	C:\Windows\System32\CRYPT32.dll
+0x00007ffd4cf30000 - 0x00007ffd4cf3a000 	C:\Windows\System32\rasadhlp.dll
+0x00007ffd4caa0000 - 0x00007ffd4cb1f000 	C:\Windows\System32\fwpuclnt.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Dcom.android.sdklib.toolsdir=D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\\.. 
+java_command: com.android.sdklib.tool.sdkmanager.SdkManagerCli --list
+java_class_path (initial): D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\dvlib-26.0.0-dev.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\jimfs-1.1.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\jsr305-1.3.9.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\repository-26.0.0-dev.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\j2objc-annotations-1.1.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\layoutlib-api-26.0.0-dev.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\gson-2.3.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\httpcore-4.2.5.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\commons-logging-1.1.1.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\commons-compress-1.12.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\annotations-26.0.0-dev.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\error_prone_annotations-2.0.18.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\animal-sniffer-annotations-1.14.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\httpclient-4.2.6.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\commons-codec-1.6.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\common-26.0.0-dev.jar;D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin\..\lib\kxml2-2.3.0.jar;D:\Games\Editor\2020.3.30f1
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\Games\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK
+JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
+PATH=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Users\илья\AppData\Local\Microsoft\WindowsApps;C:\Users\илья\.dotnet\tools
+USERNAME=илья
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 19041 (10.0.19041.1348)
+
+CPU:total 12 (initial active 12) (12 cores per cpu, 1 threads per core) family 23 model 8 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, mmxext, 3dnowpref, lzcnt, sse4a, tsc, tscinvbit, tscinv, bmi1
+
+Memory: 4k page, physical 16724460k(5517052k free), swap 26059980k(5268k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.71-b00) for windows-amd64 JRE (1.8.0-adoptopenjdk-_2018_05_19_00_59-b00), built on May 19 2018 01:02:12 by "jenkins" with MS VC++ 10.0 (VS2010)
+
+time: Sun Mar 20 01:02:20 2022
+elapsed time: 1 seconds (0d 0h 0m 1s)
+
