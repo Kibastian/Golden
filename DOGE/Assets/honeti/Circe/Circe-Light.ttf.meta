@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a8aeb227bceeed842a3be8bd78392d7b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Circe
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e2ee529368bd5e8448a0d1da8d09ad4b, type: 3}
+  - {fileID: 12800000, guid: d19c3c49fbb187b43b63ba2fb5731b82, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
