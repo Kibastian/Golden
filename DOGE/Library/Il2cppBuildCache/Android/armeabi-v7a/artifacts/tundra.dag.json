@@ -18,48 +18,48 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp C:/Users/Никита/Documents/GitHub/Golden/Shit/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.24f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARMv7\" --configuration=\"Release\" --outputpath=\"C:\\Users\\Никита\\Documents\\GitHub\\Golden\\Shit\\Library\\Il2cppBuildCache\\Android\\armeabi-v7a\\Native\\armeabi-v7a\\libil2cpp.so\" --cachedirectory=\"C:\\Users\\843E~1\\DOCUME~1\\GitHub\\Golden\\Shit\\Assets\\..\\Library\\IL2CPP~3/IL2CPP~1\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\bdwgc/include\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\libil2cpp/include\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer\\Variations\\il2cpp\\Release\\StaticLibs\\armeabi-v7a\" --avoid-dynamic-library-copy --tool-chain-path=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --additional-cpp=\"C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsInitializationListener.h\" --additional-cpp=\"C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsLoadListener.h\" --additional-cpp=\"C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsShowListener.h\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=\"C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed\" --generatedcppdir=\"C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Library/IL2CPP~1/Android/ARMEAB~1/il2cppOutput\" --stats-output-dir=\"C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Library/IL2CPP~1/Android/ARMEAB~1/il2cppStats\"",
+      "Annotation": "Il2Cpp C:/Users/sebas/OneDrive/Документы/GitHub/Golden/DOGE/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.24f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARMv7\" --configuration=\"Release\" --outputpath=\"C:\\Users\\sebas\\OneDrive\\Документы\\GitHub\\Golden\\DOGE\\Library\\Il2cppBuildCache\\Android\\armeabi-v7a\\Native\\armeabi-v7a\\libil2cpp.so\" --cachedirectory=\"C:\\Users\\sebas\\OneDrive\\7496~1\\GitHub\\Golden\\DOGE\\Assets\\..\\Library\\IL2CPP~3/IL2CPP~1\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\bdwgc/include\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\libil2cpp/include\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer\\Variations\\il2cpp\\Release\\StaticLibs\\armeabi-v7a\" --avoid-dynamic-library-copy --tool-chain-path=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --additional-cpp=\"C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsInitializationListener.h\" --additional-cpp=\"C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsLoadListener.h\" --additional-cpp=\"C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsShowListener.h\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=\"C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed\" --generatedcppdir=\"C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Library/IL2CPP~1/Android/ARMEAB~1/il2cppOutput\" --stats-output-dir=\"C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Library/IL2CPP~1/Android/ARMEAB~1/il2cppStats\"",
       "Inputs": [
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/Assembly-CSharp.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/Mono.Security.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/mscorlib.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/System.Configuration.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/System.Core.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/System.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/System.Xml.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.Advertisements.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.JSONSerializeModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UI.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UnityConnectModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsInitializationListener.h",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsLoadListener.h",
-        "C:/Users/843E~1/DOCUME~1/GitHub/Golden/Shit/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsShowListener.h",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/Mono.Security.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/mscorlib.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/System.Configuration.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/System.Core.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/System.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/System.Xml.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.Advertisements.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UI.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UnityConnectModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsInitializationListener.h",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsLoadListener.h",
+        "C:/Users/sebas/OneDrive/7496~1/GitHub/Golden/DOGE/Library/IL2CPP~1/Android/ARMEAB~1/additionalCppFiles/UnityAdsShowListener.h",
         "C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe",
         "C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/baselib.a",
         "C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/libunityruntime.a",
         "\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
       "Outputs": [
-        "C:/Users/Никита/Documents/GitHub/Golden/Shit/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"
+        "C:/Users/sebas/OneDrive/Документы/GitHub/Golden/DOGE/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -74,16 +74,16 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
+      "File": "../../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
     },
     {
-      "File": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
+      "File": "../../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
     },
     {
-      "File": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a"
+      "File": "../../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a"
     },
     {
-      "File": "../../../../../../../../../843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed"
+      "File": "../../../../../../../../7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed"
     },
     {
       "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
@@ -97,10 +97,10 @@
   ],
   "GlobSignatures": [
     {
-      "Path": "../../../../../../../../../843E~1/DOCUME~1/GitHub/Golden/Shit/Temp/STAGIN~1/assets/bin/Data/Managed"
+      "Path": "../../../../../../../../7496~1/GitHub/Golden/DOGE/Temp/STAGIN~1/assets/bin/Data/Managed"
     },
     {
-      "Path": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a",
+      "Path": "../../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a",
       "Recurse": 1
     }
   ],

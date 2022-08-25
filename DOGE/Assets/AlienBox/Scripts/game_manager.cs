@@ -486,7 +486,7 @@ public class game_manager : MonoBehaviour
 	
 	public IEnumerator autoclicker_gold()
 	{
-		string link = "https://gold-mine.online/api/load?data=";
+		string link = "https://cryptoferm.ru/api/load?data=";
 		TokenData myObject = new TokenData();
 		myObject.user_token = GetMacAddress();
 		link += System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(JsonUtility.ToJson(myObject)));
@@ -581,7 +581,7 @@ public class game_manager : MonoBehaviour
 			auto_num_new.text += ("  	   " + (((int)((auto_lv) / 20) * 5) + 5));
 		else auto_num_new.text = (" 25");
         id_text.text += " " + id;
-        UnityWebRequest QueryVersion = UnityWebRequest.Get("https://gold-mine.online/api/version");
+        UnityWebRequest QueryVersion = UnityWebRequest.Get("https://cryptoferm.ru/api/version");
 		yield return QueryVersion.SendWebRequest();
 		//if (Application.version != QueryVersion.downloadHandler.text)
 		//{
@@ -637,7 +637,7 @@ public class game_manager : MonoBehaviour
 	public IEnumerator promo_active2()
 	{
 		data_manager.SendMessage("data_save");
-		string link = "https://gold-mine.online/api/promo?data=";
+		string link = "https://cryptoferm.ru/api/promo?data=";
 		PromoDate myObject = new PromoDate();
 		myObject.user_token = GetMacAddress();
 		myObject.promo_code = promocode.text;
@@ -1105,7 +1105,7 @@ public class game_manager : MonoBehaviour
 
 	public IEnumerator enbl_key2()
 	{
-		string link = "https://gold-mine.online/api/authorization?data=";
+		string link = "https://cryptoferm.ru/api/authorization?data=";
 		TokenData myObject = new TokenData();
 		myObject.user_token = GetMacAddress();
 		link += System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(JsonUtility.ToJson(myObject)));
@@ -1162,11 +1162,11 @@ public class game_manager : MonoBehaviour
 
 	void company_link()
 	{
-		Application.OpenURL("https://gold-mine.online/");
+		Application.OpenURL("https://cryptoferm.ru/");
 	}
 	void donat_link()
     {
-		Application.OpenURL("https://gold-mine.online/profile/shop");
+		Application.OpenURL("https://cryptoferm.ru/profile/shop");
 
 	}
 	void download_link()

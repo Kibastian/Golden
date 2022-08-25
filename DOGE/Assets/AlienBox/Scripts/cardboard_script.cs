@@ -123,15 +123,12 @@ public class cardboard_script : MonoBehaviour {
 			startTime = Time.time;
 			if (game_manager.nFake == 0 && game_manager.auto_lv >= 20)
 			{
-				for (int i = 0; i < 3; i++)
-				{
 					Vector3 pos2 = new Vector3(UnityEngine.Random.RandomRange(-1.5f, 1.5f), 1f, 2);
 					GameObject new_chara = Instantiate( chara_pref5, pos2, transform.rotation) as GameObject;
 					//new_chara.GetComponent<Rigidbody2D>().velocity = transform.up * 1;
 
 
 					new_chara.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, UnityEngine.Random.Range(320, 360)));
-				}
 				game_manager.golds += (ulong)((int)(game_manager.auto_lv) / 20  * 5)+(game_manager.BoostAutoClick*50ul);
 				game_manager.Currency += (ulong)((int)(game_manager.auto_lv) / 20 * 5) + (game_manager.BoostAutoClick *50ul);
 				gold_text.text = game_manager.golds.ToString("");
@@ -195,7 +192,7 @@ public class cardboard_script : MonoBehaviour {
 				//for (int i = 0; i < game_manager.tap_num; i++)
 				//{
 				popup_chara_set(UnityEngine.Random.Range(1, 101));
-				if (diamond_count > 100/ (game_manager.DimondChance ? 3 : 1))
+				if (diamond_count > 50/ (game_manager.DimondChance ? 3 : 1))
 				{
 					diamond_count = 0;
 						game_manager.golds += 60*(ulong)(game_manager.DimondMulti?5:1);
@@ -225,15 +222,12 @@ public class cardboard_script : MonoBehaviour {
 			else
 			{
 				game_manager.nFake -= 1;
-				for (int i = 0; i < 3; i++)
-				{
 					Vector3 pos2 = new Vector3(UnityEngine.Random.RandomRange(-1f, 1f), 1f, 2);
 					GameObject new_chara = Instantiate(chara_pref12, pos2, transform.rotation) as GameObject;
 					//new_chara.GetComponent<Rigidbody2D>().velocity = transform.up * 1;
 
 
 					new_chara.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, UnityEngine.Random.Range(320, 360)));
-				}
 			}
 		}
 	}
@@ -299,7 +293,7 @@ public class cardboard_script : MonoBehaviour {
 			}
 
 		}
-		for (int i = 0; i < 3; i++)
+		for (int i = 0; i < (diamond_count > 50 / (game_manager.DimondChance ? 3 : 1)?3:1); i++)
 		{
 			Vector3 pos2 = new Vector3(UnityEngine.Random.RandomRange(-1f, 1f), 1f, 2);
 			GameObject new_chara = Instantiate((diamond_count > 100 / (game_manager.DimondChance ? 3 : 1) ? chara_pref6 : chara_pref5), pos2, transform.rotation) as GameObject;

@@ -424,549 +424,553 @@ extern void tap_object_Start_mBAD350BE5A806D3570EEF4BF61A9233885AE4DB1 (void);
 extern void tap_object_Update_mB41FD1348A284E6EB2CA447FC2958512D3742493 (void);
 // 0x000000CE System.Void tap_object::.ctor()
 extern void tap_object__ctor_mC1EF38F509EDE51084169076BEA31AC0EE0B5284 (void);
-// 0x000000CF System.Void IconPreview::Awake()
+// 0x000000CF System.Void Delete::OnStateExit(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
+extern void Delete_OnStateExit_mB2D5B4ECD42EDE45E846E822059FA116755F209D (void);
+// 0x000000D0 System.Void Delete::.ctor()
+extern void Delete__ctor_m5A0CC170551ECF5DDED93D6939877DBCD3EABF62 (void);
+// 0x000000D1 System.Void IconPreview::Awake()
 extern void IconPreview_Awake_mD330471AA6E0259A3EE92FADE843189B6463D21E (void);
-// 0x000000D0 System.Void IconPreview::Update()
+// 0x000000D2 System.Void IconPreview::Update()
 extern void IconPreview_Update_mE7394435FCE9210899203B0724F7E2717868CF04 (void);
-// 0x000000D1 System.Void IconPreview::.ctor()
+// 0x000000D3 System.Void IconPreview::.ctor()
 extern void IconPreview__ctor_m6739A07D0628A74DB7748300B21999D113B0FDBE (void);
-// 0x000000D2 System.Void add::Start()
+// 0x000000D4 System.Void add::Start()
 extern void add_Start_mCE938BE92D60AB9A5762D4D29EB4D976B1C60D73 (void);
-// 0x000000D3 System.Void add::Update()
+// 0x000000D5 System.Void add::Update()
 extern void add_Update_m5D2916DD15CFD06250BD3FBE3A1CEB52506D88D5 (void);
-// 0x000000D4 System.Void add::.ctor()
+// 0x000000D6 System.Void add::.ctor()
 extern void add__ctor_mC00ADE14183DC836A4314933EBF8691EA1C3D6BF (void);
-// 0x000000D5 System.Void ToDyToScAnO.sec30::Start()
+// 0x000000D7 System.Void ToDyToScAnO.sec30::Start()
 extern void sec30_Start_mF0F68F58DEBEA74A97CBABB10828037907014418 (void);
-// 0x000000D6 System.Void ToDyToScAnO.sec30::Update()
+// 0x000000D8 System.Void ToDyToScAnO.sec30::Update()
 extern void sec30_Update_m97274D08BE8EB7CE8D7A126D4C1BC297998F3BF5 (void);
-// 0x000000D7 System.Void ToDyToScAnO.sec30::.ctor()
+// 0x000000D9 System.Void ToDyToScAnO.sec30::.ctor()
 extern void sec30__ctor_mC4505F822A1042F363199402FAD3376C59887188 (void);
-// 0x000000D8 SimpleJSON.JSONNodeType SimpleJSON.JSONNode::get_Tag()
-// 0x000000D9 SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32)
+// 0x000000DA SimpleJSON.JSONNodeType SimpleJSON.JSONNode::get_Tag()
+// 0x000000DB SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.Int32)
 extern void JSONNode_get_Item_m9B4DBE85D7742250EF918F4450E3CE020AF7C807 (void);
-// 0x000000DA System.Void SimpleJSON.JSONNode::set_Item(System.Int32,SimpleJSON.JSONNode)
+// 0x000000DC System.Void SimpleJSON.JSONNode::set_Item(System.Int32,SimpleJSON.JSONNode)
 extern void JSONNode_set_Item_m62DFE58028E55800BF80EFE6E0CE4CDE6DF00CA7 (void);
-// 0x000000DB SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String)
+// 0x000000DD SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String)
 extern void JSONNode_get_Item_mB39E17FF10DD6C0D91FCF1EF485A73F434B34F1D (void);
-// 0x000000DC System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode)
+// 0x000000DE System.Void SimpleJSON.JSONNode::set_Item(System.String,SimpleJSON.JSONNode)
 extern void JSONNode_set_Item_m9F8D28C00CA46F8C0BD5E43500AEAFC3A1999E07 (void);
-// 0x000000DD System.String SimpleJSON.JSONNode::get_Value()
+// 0x000000DF System.String SimpleJSON.JSONNode::get_Value()
 extern void JSONNode_get_Value_m8F31142225AAE4DDEC7ACB74B7FFB30A6DD672F1 (void);
-// 0x000000DE System.Void SimpleJSON.JSONNode::set_Value(System.String)
+// 0x000000E0 System.Void SimpleJSON.JSONNode::set_Value(System.String)
 extern void JSONNode_set_Value_mA046548FC6B7DCBDA4964DB05303EBA0CF2A29CA (void);
-// 0x000000DF System.Int32 SimpleJSON.JSONNode::get_Count()
+// 0x000000E1 System.Int32 SimpleJSON.JSONNode::get_Count()
 extern void JSONNode_get_Count_m6FD5676FECC6B26A6384D8294C213C4B032EA269 (void);
-// 0x000000E0 System.Boolean SimpleJSON.JSONNode::get_IsNumber()
+// 0x000000E2 System.Boolean SimpleJSON.JSONNode::get_IsNumber()
 extern void JSONNode_get_IsNumber_m682272D381670DCFA66BD9EE3C0CE3CB161E3AAD (void);
-// 0x000000E1 System.Boolean SimpleJSON.JSONNode::get_IsString()
+// 0x000000E3 System.Boolean SimpleJSON.JSONNode::get_IsString()
 extern void JSONNode_get_IsString_mE0D6737C47977364E9F1620CEA98454EAFAEB196 (void);
-// 0x000000E2 System.Boolean SimpleJSON.JSONNode::get_IsBoolean()
+// 0x000000E4 System.Boolean SimpleJSON.JSONNode::get_IsBoolean()
 extern void JSONNode_get_IsBoolean_mA575C54AD05577A9F45E0F55355C0B40F60BFA24 (void);
-// 0x000000E3 System.Boolean SimpleJSON.JSONNode::get_IsNull()
+// 0x000000E5 System.Boolean SimpleJSON.JSONNode::get_IsNull()
 extern void JSONNode_get_IsNull_m85D1B73ABCCE95314768A4E690D941B82D08CD58 (void);
-// 0x000000E4 System.Boolean SimpleJSON.JSONNode::get_IsArray()
+// 0x000000E6 System.Boolean SimpleJSON.JSONNode::get_IsArray()
 extern void JSONNode_get_IsArray_m54719E46991451D5C8750D8265D0C6F91EEE97D7 (void);
-// 0x000000E5 System.Boolean SimpleJSON.JSONNode::get_IsObject()
+// 0x000000E7 System.Boolean SimpleJSON.JSONNode::get_IsObject()
 extern void JSONNode_get_IsObject_mC9E7B94CB90443629157D7C2AB5ED83510DD0BD1 (void);
-// 0x000000E6 System.Boolean SimpleJSON.JSONNode::get_Inline()
+// 0x000000E8 System.Boolean SimpleJSON.JSONNode::get_Inline()
 extern void JSONNode_get_Inline_m6791C62A74ACCEA90470A7EC177FA3F12F744F09 (void);
-// 0x000000E7 System.Void SimpleJSON.JSONNode::set_Inline(System.Boolean)
+// 0x000000E9 System.Void SimpleJSON.JSONNode::set_Inline(System.Boolean)
 extern void JSONNode_set_Inline_m5C5C9E182CE521A831EBD2D708568297601AD835 (void);
-// 0x000000E8 System.Void SimpleJSON.JSONNode::Add(System.String,SimpleJSON.JSONNode)
+// 0x000000EA System.Void SimpleJSON.JSONNode::Add(System.String,SimpleJSON.JSONNode)
 extern void JSONNode_Add_m10F03DC3FD017B22B831388D39FF735D5AFE96A4 (void);
-// 0x000000E9 System.Void SimpleJSON.JSONNode::Add(SimpleJSON.JSONNode)
+// 0x000000EB System.Void SimpleJSON.JSONNode::Add(SimpleJSON.JSONNode)
 extern void JSONNode_Add_m7DCFC7266181DE46B90ECC7C5DD7D5B7618F9DE2 (void);
-// 0x000000EA SimpleJSON.JSONNode SimpleJSON.JSONNode::Remove(System.String)
+// 0x000000EC SimpleJSON.JSONNode SimpleJSON.JSONNode::Remove(System.String)
 extern void JSONNode_Remove_m49D627BAE273E902C8EB8345BDD7B33E945C2E47 (void);
-// 0x000000EB SimpleJSON.JSONNode SimpleJSON.JSONNode::Remove(System.Int32)
+// 0x000000ED SimpleJSON.JSONNode SimpleJSON.JSONNode::Remove(System.Int32)
 extern void JSONNode_Remove_m3B3259E69D33121E4974FE1ACFAEBED4B034C053 (void);
-// 0x000000EC SimpleJSON.JSONNode SimpleJSON.JSONNode::Remove(SimpleJSON.JSONNode)
+// 0x000000EE SimpleJSON.JSONNode SimpleJSON.JSONNode::Remove(SimpleJSON.JSONNode)
 extern void JSONNode_Remove_mD1FE270ABF87BCD7D09AAA22286AB3C315BAA0EA (void);
-// 0x000000ED System.Void SimpleJSON.JSONNode::Clear()
+// 0x000000EF System.Void SimpleJSON.JSONNode::Clear()
 extern void JSONNode_Clear_m706F6EBA5C07C64C78FADE96D642EA3A108C1978 (void);
-// 0x000000EE SimpleJSON.JSONNode SimpleJSON.JSONNode::Clone()
+// 0x000000F0 SimpleJSON.JSONNode SimpleJSON.JSONNode::Clone()
 extern void JSONNode_Clone_mB8EAA2AC7D9354F0BB2BFE8154199D2B5787E5EB (void);
-// 0x000000EF System.Collections.Generic.IEnumerable`1<SimpleJSON.JSONNode> SimpleJSON.JSONNode::get_Children()
+// 0x000000F1 System.Collections.Generic.IEnumerable`1<SimpleJSON.JSONNode> SimpleJSON.JSONNode::get_Children()
 extern void JSONNode_get_Children_mB9A68101166B1C5176311D2EC1ABCC832248FDFF (void);
-// 0x000000F0 System.Collections.Generic.IEnumerable`1<SimpleJSON.JSONNode> SimpleJSON.JSONNode::get_DeepChildren()
+// 0x000000F2 System.Collections.Generic.IEnumerable`1<SimpleJSON.JSONNode> SimpleJSON.JSONNode::get_DeepChildren()
 extern void JSONNode_get_DeepChildren_m3E3CE542A4856D0BD557B7E121B4CAA999C8110C (void);
-// 0x000000F1 System.Boolean SimpleJSON.JSONNode::HasKey(System.String)
+// 0x000000F3 System.Boolean SimpleJSON.JSONNode::HasKey(System.String)
 extern void JSONNode_HasKey_m844625544C6ACE8B18B84D836357CF0CB83D4109 (void);
-// 0x000000F2 SimpleJSON.JSONNode SimpleJSON.JSONNode::GetValueOrDefault(System.String,SimpleJSON.JSONNode)
+// 0x000000F4 SimpleJSON.JSONNode SimpleJSON.JSONNode::GetValueOrDefault(System.String,SimpleJSON.JSONNode)
 extern void JSONNode_GetValueOrDefault_m995F3AFE1A8C9A1F6AA41CB6EB3C9D1514BBCD2E (void);
-// 0x000000F3 System.String SimpleJSON.JSONNode::ToString()
+// 0x000000F5 System.String SimpleJSON.JSONNode::ToString()
 extern void JSONNode_ToString_m9E23A359C8B7209DEED6B81DA27C8D0619F9CE98 (void);
-// 0x000000F4 System.String SimpleJSON.JSONNode::ToString(System.Int32)
+// 0x000000F6 System.String SimpleJSON.JSONNode::ToString(System.Int32)
 extern void JSONNode_ToString_m9B8D0351B9B14D65ABF1090E6D07E0C69DFB84C3 (void);
-// 0x000000F5 System.Void SimpleJSON.JSONNode::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
-// 0x000000F6 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONNode::GetEnumerator()
-// 0x000000F7 System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>> SimpleJSON.JSONNode::get_Linq()
+// 0x000000F7 System.Void SimpleJSON.JSONNode::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
+// 0x000000F8 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONNode::GetEnumerator()
+// 0x000000F9 System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>> SimpleJSON.JSONNode::get_Linq()
 extern void JSONNode_get_Linq_m568F8D242CB58C62C9D8230A0C1F684D70573268 (void);
-// 0x000000F8 SimpleJSON.JSONNode/KeyEnumerator SimpleJSON.JSONNode::get_Keys()
+// 0x000000FA SimpleJSON.JSONNode/KeyEnumerator SimpleJSON.JSONNode::get_Keys()
 extern void JSONNode_get_Keys_m6C1FC7F6C35656362327B486F0426273234584E2 (void);
-// 0x000000F9 SimpleJSON.JSONNode/ValueEnumerator SimpleJSON.JSONNode::get_Values()
+// 0x000000FB SimpleJSON.JSONNode/ValueEnumerator SimpleJSON.JSONNode::get_Values()
 extern void JSONNode_get_Values_m1097622D87EFAC54681A9A9796E563DA142D7677 (void);
-// 0x000000FA System.Double SimpleJSON.JSONNode::get_AsDouble()
+// 0x000000FC System.Double SimpleJSON.JSONNode::get_AsDouble()
 extern void JSONNode_get_AsDouble_m0DE7D5E7712FB59B32C1C570EBBF85D597B98656 (void);
-// 0x000000FB System.Void SimpleJSON.JSONNode::set_AsDouble(System.Double)
+// 0x000000FD System.Void SimpleJSON.JSONNode::set_AsDouble(System.Double)
 extern void JSONNode_set_AsDouble_mBA8F81DF080D29E60DDE8235663BAFFA688736D5 (void);
-// 0x000000FC System.Int32 SimpleJSON.JSONNode::get_AsInt()
+// 0x000000FE System.Int32 SimpleJSON.JSONNode::get_AsInt()
 extern void JSONNode_get_AsInt_m743FC99FEF2DA80A8C6CB71137A5FFD28084E0FA (void);
-// 0x000000FD System.Void SimpleJSON.JSONNode::set_AsInt(System.Int32)
+// 0x000000FF System.Void SimpleJSON.JSONNode::set_AsInt(System.Int32)
 extern void JSONNode_set_AsInt_m7CA6313AD31E9E08FEB0B6F8B92AD9A3882D9B75 (void);
-// 0x000000FE System.Single SimpleJSON.JSONNode::get_AsFloat()
+// 0x00000100 System.Single SimpleJSON.JSONNode::get_AsFloat()
 extern void JSONNode_get_AsFloat_m4B2A24C67F4FBF872DEA6360719D854AE1AD1FBB (void);
-// 0x000000FF System.Void SimpleJSON.JSONNode::set_AsFloat(System.Single)
+// 0x00000101 System.Void SimpleJSON.JSONNode::set_AsFloat(System.Single)
 extern void JSONNode_set_AsFloat_m624BDD6CAF17D1709BACFDF3554F2AE11FDD22D1 (void);
-// 0x00000100 System.Boolean SimpleJSON.JSONNode::get_AsBool()
+// 0x00000102 System.Boolean SimpleJSON.JSONNode::get_AsBool()
 extern void JSONNode_get_AsBool_m15160B79EBEA51E7A2C7C7A23B3540A60434B36D (void);
-// 0x00000101 System.Void SimpleJSON.JSONNode::set_AsBool(System.Boolean)
+// 0x00000103 System.Void SimpleJSON.JSONNode::set_AsBool(System.Boolean)
 extern void JSONNode_set_AsBool_m0878AF783E25077E17850DD1B4522B17FF08770F (void);
-// 0x00000102 System.Int64 SimpleJSON.JSONNode::get_AsLong()
+// 0x00000104 System.Int64 SimpleJSON.JSONNode::get_AsLong()
 extern void JSONNode_get_AsLong_mE7DA8DC8A512CA74C7B372E9FF9CAE347E4BA855 (void);
-// 0x00000103 System.Void SimpleJSON.JSONNode::set_AsLong(System.Int64)
+// 0x00000105 System.Void SimpleJSON.JSONNode::set_AsLong(System.Int64)
 extern void JSONNode_set_AsLong_m24D91AED5E8EF3285A82FEDDE9D7D151DBEDAFA6 (void);
-// 0x00000104 System.UInt64 SimpleJSON.JSONNode::get_AsULong()
+// 0x00000106 System.UInt64 SimpleJSON.JSONNode::get_AsULong()
 extern void JSONNode_get_AsULong_mEEA4E92743A00ECBEE45404E05CA6C0D082389A3 (void);
-// 0x00000105 System.Void SimpleJSON.JSONNode::set_AsULong(System.UInt64)
+// 0x00000107 System.Void SimpleJSON.JSONNode::set_AsULong(System.UInt64)
 extern void JSONNode_set_AsULong_mE9F8E62D253807F5BE0B2768D4CFB9AA3E232054 (void);
-// 0x00000106 SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray()
+// 0x00000108 SimpleJSON.JSONArray SimpleJSON.JSONNode::get_AsArray()
 extern void JSONNode_get_AsArray_m10801C5609C0C024480B49DFA03A4FB16A4E6829 (void);
-// 0x00000107 SimpleJSON.JSONObject SimpleJSON.JSONNode::get_AsObject()
+// 0x00000109 SimpleJSON.JSONObject SimpleJSON.JSONNode::get_AsObject()
 extern void JSONNode_get_AsObject_mDE74F42234B130BA44AD17DF9FFC64A2D8DFCD46 (void);
-// 0x00000108 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.String)
+// 0x0000010A SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.String)
 extern void JSONNode_op_Implicit_m3938223B519495895A5B4E53D60789BB2D4620F2 (void);
-// 0x00000109 System.String SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
+// 0x0000010B System.String SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
 extern void JSONNode_op_Implicit_m110AF33FB2CEF68FF905E93F656AF02222554668 (void);
-// 0x0000010A SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Double)
+// 0x0000010C SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Double)
 extern void JSONNode_op_Implicit_m66EA9B62BBFD5A306C2B95703443F1960338BA01 (void);
-// 0x0000010B System.Double SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
+// 0x0000010D System.Double SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
 extern void JSONNode_op_Implicit_m98778303F0AD762A7C4FE928D82352A1F8276EBE (void);
-// 0x0000010C SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Single)
+// 0x0000010E SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Single)
 extern void JSONNode_op_Implicit_m3780006769998A253BE0F8068E68BD88AC692112 (void);
-// 0x0000010D System.Single SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
+// 0x0000010F System.Single SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
 extern void JSONNode_op_Implicit_mA90C42C0D957F5F284857AE91907D69477331166 (void);
-// 0x0000010E SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Int32)
+// 0x00000110 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Int32)
 extern void JSONNode_op_Implicit_mDAC018F58F31AB6333A9852BD0B038152063B3F2 (void);
-// 0x0000010F System.Int32 SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
+// 0x00000111 System.Int32 SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
 extern void JSONNode_op_Implicit_m10A6B0627DE9BC247B0B39554FEA1CD37CA7988C (void);
-// 0x00000110 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Int64)
+// 0x00000112 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Int64)
 extern void JSONNode_op_Implicit_m45DA7291150C2AD5FF800B3E6BFF747D59D571DC (void);
-// 0x00000111 System.Int64 SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
+// 0x00000113 System.Int64 SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
 extern void JSONNode_op_Implicit_mA5840D22D4BEDED7AC00F6F5A36938B4C919BFD3 (void);
-// 0x00000112 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.UInt64)
+// 0x00000114 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.UInt64)
 extern void JSONNode_op_Implicit_mCDBF45400C2B893A51A9E5ACD26D479C5B942C82 (void);
-// 0x00000113 System.UInt64 SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
+// 0x00000115 System.UInt64 SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
 extern void JSONNode_op_Implicit_m4A1F576E9A7CB07C3BECEFF936EC66C01E8FF884 (void);
-// 0x00000114 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Boolean)
+// 0x00000116 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Boolean)
 extern void JSONNode_op_Implicit_mAF077674B97BAF8FD4EB941A63B84D26F6E08EDC (void);
-// 0x00000115 System.Boolean SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
+// 0x00000117 System.Boolean SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
 extern void JSONNode_op_Implicit_mE4078D38F919268986EF017D4A9EA55FD8CBA826 (void);
-// 0x00000116 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>)
+// 0x00000118 SimpleJSON.JSONNode SimpleJSON.JSONNode::op_Implicit(System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>)
 extern void JSONNode_op_Implicit_m92A46C2D66615E97C21041238C09386EDCF0A266 (void);
-// 0x00000117 System.Boolean SimpleJSON.JSONNode::op_Equality(SimpleJSON.JSONNode,System.Object)
+// 0x00000119 System.Boolean SimpleJSON.JSONNode::op_Equality(SimpleJSON.JSONNode,System.Object)
 extern void JSONNode_op_Equality_mA320F56360F44724C465167318C8FC38F0DCA38F (void);
-// 0x00000118 System.Boolean SimpleJSON.JSONNode::op_Inequality(SimpleJSON.JSONNode,System.Object)
+// 0x0000011A System.Boolean SimpleJSON.JSONNode::op_Inequality(SimpleJSON.JSONNode,System.Object)
 extern void JSONNode_op_Inequality_m00AE17CECA317ECC98958F027D0545C831DA24FE (void);
-// 0x00000119 System.Boolean SimpleJSON.JSONNode::Equals(System.Object)
+// 0x0000011B System.Boolean SimpleJSON.JSONNode::Equals(System.Object)
 extern void JSONNode_Equals_mC1598F5265D88ECAA3040C537A28FC2DC878BBFF (void);
-// 0x0000011A System.Int32 SimpleJSON.JSONNode::GetHashCode()
+// 0x0000011C System.Int32 SimpleJSON.JSONNode::GetHashCode()
 extern void JSONNode_GetHashCode_mF900BB7E50D965906CDBC7210B9097CDE6B89834 (void);
-// 0x0000011B System.Text.StringBuilder SimpleJSON.JSONNode::get_EscapeBuilder()
+// 0x0000011D System.Text.StringBuilder SimpleJSON.JSONNode::get_EscapeBuilder()
 extern void JSONNode_get_EscapeBuilder_m87ACD2EE75FD74E9E7B67BBB66FCDB0643749628 (void);
-// 0x0000011C System.String SimpleJSON.JSONNode::Escape(System.String)
+// 0x0000011E System.String SimpleJSON.JSONNode::Escape(System.String)
 extern void JSONNode_Escape_m5C3A578A1281224A7BDF595470FA706CBC597A68 (void);
-// 0x0000011D SimpleJSON.JSONNode SimpleJSON.JSONNode::ParseElement(System.String,System.Boolean)
+// 0x0000011F SimpleJSON.JSONNode SimpleJSON.JSONNode::ParseElement(System.String,System.Boolean)
 extern void JSONNode_ParseElement_mB69AF0C51A3AD8AF384A016599AEAEEF978533E3 (void);
-// 0x0000011E SimpleJSON.JSONNode SimpleJSON.JSONNode::Parse(System.String)
+// 0x00000120 SimpleJSON.JSONNode SimpleJSON.JSONNode::Parse(System.String)
 extern void JSONNode_Parse_m747C7ACB3E8F42CB32651EAB1506047F02BF4076 (void);
-// 0x0000011F System.Void SimpleJSON.JSONNode::.ctor()
+// 0x00000121 System.Void SimpleJSON.JSONNode::.ctor()
 extern void JSONNode__ctor_mF0692814A0795056AE052B05EF63D6B216B5619E (void);
-// 0x00000120 System.Void SimpleJSON.JSONNode::.cctor()
+// 0x00000122 System.Void SimpleJSON.JSONNode::.cctor()
 extern void JSONNode__cctor_m0F95CA9754AE155CEC873DEFB28A83E8AAC25990 (void);
-// 0x00000121 System.Boolean SimpleJSON.JSONNode/Enumerator::get_IsValid()
+// 0x00000123 System.Boolean SimpleJSON.JSONNode/Enumerator::get_IsValid()
 extern void Enumerator_get_IsValid_m078841FA11B23FAA03C8C0F0F5CFE1C7A33CC267 (void);
-// 0x00000122 System.Void SimpleJSON.JSONNode/Enumerator::.ctor(System.Collections.Generic.List`1/Enumerator<SimpleJSON.JSONNode>)
+// 0x00000124 System.Void SimpleJSON.JSONNode/Enumerator::.ctor(System.Collections.Generic.List`1/Enumerator<SimpleJSON.JSONNode>)
 extern void Enumerator__ctor_m0A9EDBF3F33AA5FAE87C204FA885D965D16E8A44 (void);
-// 0x00000123 System.Void SimpleJSON.JSONNode/Enumerator::.ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>)
+// 0x00000125 System.Void SimpleJSON.JSONNode/Enumerator::.ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>)
 extern void Enumerator__ctor_mDE6D3B06DF10240F0C637131119C8B09CE9EC4DC (void);
-// 0x00000124 System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode> SimpleJSON.JSONNode/Enumerator::get_Current()
+// 0x00000126 System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode> SimpleJSON.JSONNode/Enumerator::get_Current()
 extern void Enumerator_get_Current_m6C700A8C86DAB32F9FE845C3BE1E35D17757C65C (void);
-// 0x00000125 System.Boolean SimpleJSON.JSONNode/Enumerator::MoveNext()
+// 0x00000127 System.Boolean SimpleJSON.JSONNode/Enumerator::MoveNext()
 extern void Enumerator_MoveNext_m095925BE3D881DF1E015997DBEAFE0851722E53E (void);
-// 0x00000126 System.Void SimpleJSON.JSONNode/ValueEnumerator::.ctor(System.Collections.Generic.List`1/Enumerator<SimpleJSON.JSONNode>)
+// 0x00000128 System.Void SimpleJSON.JSONNode/ValueEnumerator::.ctor(System.Collections.Generic.List`1/Enumerator<SimpleJSON.JSONNode>)
 extern void ValueEnumerator__ctor_m1FF9C4191C706E48C3F9A191D0CE02F9BECDCE45 (void);
-// 0x00000127 System.Void SimpleJSON.JSONNode/ValueEnumerator::.ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>)
+// 0x00000129 System.Void SimpleJSON.JSONNode/ValueEnumerator::.ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>)
 extern void ValueEnumerator__ctor_m8143FFB5AD9AB3936DF1A59E3492C2CF81793AF5 (void);
-// 0x00000128 System.Void SimpleJSON.JSONNode/ValueEnumerator::.ctor(SimpleJSON.JSONNode/Enumerator)
+// 0x0000012A System.Void SimpleJSON.JSONNode/ValueEnumerator::.ctor(SimpleJSON.JSONNode/Enumerator)
 extern void ValueEnumerator__ctor_mE92051B3948C6A45D4F9265EA6D8329D70649D06 (void);
-// 0x00000129 SimpleJSON.JSONNode SimpleJSON.JSONNode/ValueEnumerator::get_Current()
+// 0x0000012B SimpleJSON.JSONNode SimpleJSON.JSONNode/ValueEnumerator::get_Current()
 extern void ValueEnumerator_get_Current_mAB38FFFD4C1293C61EE73C825D85B7258B61961C (void);
-// 0x0000012A System.Boolean SimpleJSON.JSONNode/ValueEnumerator::MoveNext()
+// 0x0000012C System.Boolean SimpleJSON.JSONNode/ValueEnumerator::MoveNext()
 extern void ValueEnumerator_MoveNext_mE68E69AFB9D6FA2B41F55B066F3295490EED5589 (void);
-// 0x0000012B SimpleJSON.JSONNode/ValueEnumerator SimpleJSON.JSONNode/ValueEnumerator::GetEnumerator()
+// 0x0000012D SimpleJSON.JSONNode/ValueEnumerator SimpleJSON.JSONNode/ValueEnumerator::GetEnumerator()
 extern void ValueEnumerator_GetEnumerator_mF841522782073D8D5F9782A37B2487BEA63E5E09 (void);
-// 0x0000012C System.Void SimpleJSON.JSONNode/KeyEnumerator::.ctor(System.Collections.Generic.List`1/Enumerator<SimpleJSON.JSONNode>)
+// 0x0000012E System.Void SimpleJSON.JSONNode/KeyEnumerator::.ctor(System.Collections.Generic.List`1/Enumerator<SimpleJSON.JSONNode>)
 extern void KeyEnumerator__ctor_m6E59374D6FF2E994DFB9BFCA3759CC335CA48D23 (void);
-// 0x0000012D System.Void SimpleJSON.JSONNode/KeyEnumerator::.ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>)
+// 0x0000012F System.Void SimpleJSON.JSONNode/KeyEnumerator::.ctor(System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>)
 extern void KeyEnumerator__ctor_mB67A74FB33429333A208FA269F011122C1AB6395 (void);
-// 0x0000012E System.Void SimpleJSON.JSONNode/KeyEnumerator::.ctor(SimpleJSON.JSONNode/Enumerator)
+// 0x00000130 System.Void SimpleJSON.JSONNode/KeyEnumerator::.ctor(SimpleJSON.JSONNode/Enumerator)
 extern void KeyEnumerator__ctor_m5F83F3F252DE00DB6AC2AE59FD501F921C56F224 (void);
-// 0x0000012F System.String SimpleJSON.JSONNode/KeyEnumerator::get_Current()
+// 0x00000131 System.String SimpleJSON.JSONNode/KeyEnumerator::get_Current()
 extern void KeyEnumerator_get_Current_m2F8F06987AA5A1600CFA852F7510BF01A3F4DEB4 (void);
-// 0x00000130 System.Boolean SimpleJSON.JSONNode/KeyEnumerator::MoveNext()
+// 0x00000132 System.Boolean SimpleJSON.JSONNode/KeyEnumerator::MoveNext()
 extern void KeyEnumerator_MoveNext_mFF5FB4ECB623B58733E9B85846A296853462F2F4 (void);
-// 0x00000131 SimpleJSON.JSONNode/KeyEnumerator SimpleJSON.JSONNode/KeyEnumerator::GetEnumerator()
+// 0x00000133 SimpleJSON.JSONNode/KeyEnumerator SimpleJSON.JSONNode/KeyEnumerator::GetEnumerator()
 extern void KeyEnumerator_GetEnumerator_m4534071ECBA3E7165BB0DC642EA9E827A29F5A87 (void);
-// 0x00000132 System.Void SimpleJSON.JSONNode/LinqEnumerator::.ctor(SimpleJSON.JSONNode)
+// 0x00000134 System.Void SimpleJSON.JSONNode/LinqEnumerator::.ctor(SimpleJSON.JSONNode)
 extern void LinqEnumerator__ctor_m711F6A5F82CC6093E5245A51BFEF95B0355E2FAC (void);
-// 0x00000133 System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode> SimpleJSON.JSONNode/LinqEnumerator::get_Current()
+// 0x00000135 System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode> SimpleJSON.JSONNode/LinqEnumerator::get_Current()
 extern void LinqEnumerator_get_Current_m7F293F41FED328A040E5BC71C7F4560C3B8C295C (void);
-// 0x00000134 System.Object SimpleJSON.JSONNode/LinqEnumerator::System.Collections.IEnumerator.get_Current()
+// 0x00000136 System.Object SimpleJSON.JSONNode/LinqEnumerator::System.Collections.IEnumerator.get_Current()
 extern void LinqEnumerator_System_Collections_IEnumerator_get_Current_m36203F845AA95DEB756D145E03469EF077B79BF1 (void);
-// 0x00000135 System.Boolean SimpleJSON.JSONNode/LinqEnumerator::MoveNext()
+// 0x00000137 System.Boolean SimpleJSON.JSONNode/LinqEnumerator::MoveNext()
 extern void LinqEnumerator_MoveNext_m547BA7FD679ED14C3E698763EBEC58333194B9EE (void);
-// 0x00000136 System.Void SimpleJSON.JSONNode/LinqEnumerator::Dispose()
+// 0x00000138 System.Void SimpleJSON.JSONNode/LinqEnumerator::Dispose()
 extern void LinqEnumerator_Dispose_mF5270BF1DEAB954E8FC65435DF6D6FD5DBE1C21F (void);
-// 0x00000137 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>> SimpleJSON.JSONNode/LinqEnumerator::GetEnumerator()
+// 0x00000139 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>> SimpleJSON.JSONNode/LinqEnumerator::GetEnumerator()
 extern void LinqEnumerator_GetEnumerator_m356D1E4E1EC2D215962F677F3C6AE538E3CF9A20 (void);
-// 0x00000138 System.Void SimpleJSON.JSONNode/LinqEnumerator::Reset()
+// 0x0000013A System.Void SimpleJSON.JSONNode/LinqEnumerator::Reset()
 extern void LinqEnumerator_Reset_mCC3E0E49D5343E81C63A2B4A28A7268F628A2522 (void);
-// 0x00000139 System.Collections.IEnumerator SimpleJSON.JSONNode/LinqEnumerator::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000013B System.Collections.IEnumerator SimpleJSON.JSONNode/LinqEnumerator::System.Collections.IEnumerable.GetEnumerator()
 extern void LinqEnumerator_System_Collections_IEnumerable_GetEnumerator_m713D8655544E9FC2911762CD17D215B5763AE735 (void);
-// 0x0000013A System.Void SimpleJSON.JSONNode/<get_Children>d__43::.ctor(System.Int32)
+// 0x0000013C System.Void SimpleJSON.JSONNode/<get_Children>d__43::.ctor(System.Int32)
 extern void U3Cget_ChildrenU3Ed__43__ctor_m1E3DEE85215E302020E599B5D498D5F257B841E5 (void);
-// 0x0000013B System.Void SimpleJSON.JSONNode/<get_Children>d__43::System.IDisposable.Dispose()
+// 0x0000013D System.Void SimpleJSON.JSONNode/<get_Children>d__43::System.IDisposable.Dispose()
 extern void U3Cget_ChildrenU3Ed__43_System_IDisposable_Dispose_m3F00470D6E61DBE9CF64CD523D38F5092505403A (void);
-// 0x0000013C System.Boolean SimpleJSON.JSONNode/<get_Children>d__43::MoveNext()
+// 0x0000013E System.Boolean SimpleJSON.JSONNode/<get_Children>d__43::MoveNext()
 extern void U3Cget_ChildrenU3Ed__43_MoveNext_m44C527BF6FC399EF5A6818F21D2DE6EE987A3514 (void);
-// 0x0000013D SimpleJSON.JSONNode SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.get_Current()
+// 0x0000013F SimpleJSON.JSONNode SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.get_Current()
 extern void U3Cget_ChildrenU3Ed__43_System_Collections_Generic_IEnumeratorU3CSimpleJSON_JSONNodeU3E_get_Current_m2E015F7A52E8208F5DBDD306CA59D6DDA7C5E14B (void);
-// 0x0000013E System.Void SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.IEnumerator.Reset()
+// 0x00000140 System.Void SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.IEnumerator.Reset()
 extern void U3Cget_ChildrenU3Ed__43_System_Collections_IEnumerator_Reset_m651CEB1CC2F1607A9BC74E77C5B74A593E064F08 (void);
-// 0x0000013F System.Object SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.IEnumerator.get_Current()
+// 0x00000141 System.Object SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.IEnumerator.get_Current()
 extern void U3Cget_ChildrenU3Ed__43_System_Collections_IEnumerator_get_Current_m10EB5342637BBF2E59C8EC9A660D591135EB6ACA (void);
-// 0x00000140 System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode> SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator()
+// 0x00000142 System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode> SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator()
 extern void U3Cget_ChildrenU3Ed__43_System_Collections_Generic_IEnumerableU3CSimpleJSON_JSONNodeU3E_GetEnumerator_m3C96B2C39F4888749B03B276C3525C5F6F65F689 (void);
-// 0x00000141 System.Collections.IEnumerator SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000143 System.Collections.IEnumerator SimpleJSON.JSONNode/<get_Children>d__43::System.Collections.IEnumerable.GetEnumerator()
 extern void U3Cget_ChildrenU3Ed__43_System_Collections_IEnumerable_GetEnumerator_m348BC5D347B12C3670753E9B49E7A85F98FBD028 (void);
-// 0x00000142 System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::.ctor(System.Int32)
+// 0x00000144 System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::.ctor(System.Int32)
 extern void U3Cget_DeepChildrenU3Ed__45__ctor_mAEF820B12BA0E5ACD7AEAF398E13D86229F33824 (void);
-// 0x00000143 System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.IDisposable.Dispose()
+// 0x00000145 System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.IDisposable.Dispose()
 extern void U3Cget_DeepChildrenU3Ed__45_System_IDisposable_Dispose_m402090148B49E68DBBB71155A79B32A9D5EC0B28 (void);
-// 0x00000144 System.Boolean SimpleJSON.JSONNode/<get_DeepChildren>d__45::MoveNext()
+// 0x00000146 System.Boolean SimpleJSON.JSONNode/<get_DeepChildren>d__45::MoveNext()
 extern void U3Cget_DeepChildrenU3Ed__45_MoveNext_m7D0B0392EC628E124531B872D453C5627BE36C16 (void);
-// 0x00000145 System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::<>m__Finally1()
+// 0x00000147 System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::<>m__Finally1()
 extern void U3Cget_DeepChildrenU3Ed__45_U3CU3Em__Finally1_m7087BAFAFAED9C487312FEFB3224EF8C5AD8C816 (void);
-// 0x00000146 System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::<>m__Finally2()
+// 0x00000148 System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::<>m__Finally2()
 extern void U3Cget_DeepChildrenU3Ed__45_U3CU3Em__Finally2_m81B9787080A73A39DD00CC34745F1439DA51099A (void);
-// 0x00000147 SimpleJSON.JSONNode SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.get_Current()
+// 0x00000149 SimpleJSON.JSONNode SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.get_Current()
 extern void U3Cget_DeepChildrenU3Ed__45_System_Collections_Generic_IEnumeratorU3CSimpleJSON_JSONNodeU3E_get_Current_m6F553695AE45AFE3DB3CB3CB041EBA0C989BD418 (void);
-// 0x00000148 System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.IEnumerator.Reset()
+// 0x0000014A System.Void SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.IEnumerator.Reset()
 extern void U3Cget_DeepChildrenU3Ed__45_System_Collections_IEnumerator_Reset_m0A483B8285BDDCD8AAE7A06B530E0B8AD49AFBB7 (void);
-// 0x00000149 System.Object SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.IEnumerator.get_Current()
+// 0x0000014B System.Object SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.IEnumerator.get_Current()
 extern void U3Cget_DeepChildrenU3Ed__45_System_Collections_IEnumerator_get_Current_m3405A7516644ED2988C02CD58955E86EF6F4A9C0 (void);
-// 0x0000014A System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode> SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator()
+// 0x0000014C System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode> SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator()
 extern void U3Cget_DeepChildrenU3Ed__45_System_Collections_Generic_IEnumerableU3CSimpleJSON_JSONNodeU3E_GetEnumerator_m8EC445D3F9C890F98F5EFE538F031CEFD61B518A (void);
-// 0x0000014B System.Collections.IEnumerator SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000014D System.Collections.IEnumerator SimpleJSON.JSONNode/<get_DeepChildren>d__45::System.Collections.IEnumerable.GetEnumerator()
 extern void U3Cget_DeepChildrenU3Ed__45_System_Collections_IEnumerable_GetEnumerator_mDD5EC1B27E01615A2CC852679694910EF826BE7A (void);
-// 0x0000014C System.Boolean SimpleJSON.JSONArray::get_Inline()
+// 0x0000014E System.Boolean SimpleJSON.JSONArray::get_Inline()
 extern void JSONArray_get_Inline_mCCA0FAE052593C420DF7266D9030F7CBCFF5D43A (void);
-// 0x0000014D System.Void SimpleJSON.JSONArray::set_Inline(System.Boolean)
+// 0x0000014F System.Void SimpleJSON.JSONArray::set_Inline(System.Boolean)
 extern void JSONArray_set_Inline_mCDD35E23A81DC4DF48DB54FA164B2D05CA8CDD5C (void);
-// 0x0000014E SimpleJSON.JSONNodeType SimpleJSON.JSONArray::get_Tag()
+// 0x00000150 SimpleJSON.JSONNodeType SimpleJSON.JSONArray::get_Tag()
 extern void JSONArray_get_Tag_mA6475F4E3B27AE262DFF53A510E5DD9CA9A82212 (void);
-// 0x0000014F System.Boolean SimpleJSON.JSONArray::get_IsArray()
+// 0x00000151 System.Boolean SimpleJSON.JSONArray::get_IsArray()
 extern void JSONArray_get_IsArray_m015BCD163D49042D8827D8B5880EAC8720B93DDD (void);
-// 0x00000150 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONArray::GetEnumerator()
+// 0x00000152 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONArray::GetEnumerator()
 extern void JSONArray_GetEnumerator_m107028482740A363BC3AAC4348F729F49094B8D7 (void);
-// 0x00000151 SimpleJSON.JSONNode SimpleJSON.JSONArray::get_Item(System.Int32)
+// 0x00000153 SimpleJSON.JSONNode SimpleJSON.JSONArray::get_Item(System.Int32)
 extern void JSONArray_get_Item_mB56A68792D63083DAE88CF576C4E5C9C6D0E1AEC (void);
-// 0x00000152 System.Void SimpleJSON.JSONArray::set_Item(System.Int32,SimpleJSON.JSONNode)
+// 0x00000154 System.Void SimpleJSON.JSONArray::set_Item(System.Int32,SimpleJSON.JSONNode)
 extern void JSONArray_set_Item_m8D70249BB8D717AD878AFE87F9F86345CD5DE9EF (void);
-// 0x00000153 SimpleJSON.JSONNode SimpleJSON.JSONArray::get_Item(System.String)
+// 0x00000155 SimpleJSON.JSONNode SimpleJSON.JSONArray::get_Item(System.String)
 extern void JSONArray_get_Item_m5E864AF954B22AD5841E8CEB58AF68DED45C4C8B (void);
-// 0x00000154 System.Void SimpleJSON.JSONArray::set_Item(System.String,SimpleJSON.JSONNode)
+// 0x00000156 System.Void SimpleJSON.JSONArray::set_Item(System.String,SimpleJSON.JSONNode)
 extern void JSONArray_set_Item_mD6DB253A66DC2D34179D9773A1ADF25A11FE7DDE (void);
-// 0x00000155 System.Int32 SimpleJSON.JSONArray::get_Count()
+// 0x00000157 System.Int32 SimpleJSON.JSONArray::get_Count()
 extern void JSONArray_get_Count_m8649900F00FBEDB004834FB9D814F848E6C7D72B (void);
-// 0x00000156 System.Void SimpleJSON.JSONArray::Add(System.String,SimpleJSON.JSONNode)
+// 0x00000158 System.Void SimpleJSON.JSONArray::Add(System.String,SimpleJSON.JSONNode)
 extern void JSONArray_Add_m14182F062E171457670DB45BE811A46A78B2D685 (void);
-// 0x00000157 SimpleJSON.JSONNode SimpleJSON.JSONArray::Remove(System.Int32)
+// 0x00000159 SimpleJSON.JSONNode SimpleJSON.JSONArray::Remove(System.Int32)
 extern void JSONArray_Remove_m65505E642765169F35A9F21760C7EDC39407B9F9 (void);
-// 0x00000158 SimpleJSON.JSONNode SimpleJSON.JSONArray::Remove(SimpleJSON.JSONNode)
+// 0x0000015A SimpleJSON.JSONNode SimpleJSON.JSONArray::Remove(SimpleJSON.JSONNode)
 extern void JSONArray_Remove_mA79C09C43B22EE2B4965C1D8B3794BAE1957037E (void);
-// 0x00000159 System.Void SimpleJSON.JSONArray::Clear()
+// 0x0000015B System.Void SimpleJSON.JSONArray::Clear()
 extern void JSONArray_Clear_m34F9A0A6EA42F82C69B96EC8651181EC221B8329 (void);
-// 0x0000015A SimpleJSON.JSONNode SimpleJSON.JSONArray::Clone()
+// 0x0000015C SimpleJSON.JSONNode SimpleJSON.JSONArray::Clone()
 extern void JSONArray_Clone_m61DBE2A5A6231C2F3FD32D1EB44A1693CB6CD172 (void);
-// 0x0000015B System.Collections.Generic.IEnumerable`1<SimpleJSON.JSONNode> SimpleJSON.JSONArray::get_Children()
+// 0x0000015D System.Collections.Generic.IEnumerable`1<SimpleJSON.JSONNode> SimpleJSON.JSONArray::get_Children()
 extern void JSONArray_get_Children_m56D8A696E09F5EEFF1FF9F8BE06011CE5EAFA197 (void);
-// 0x0000015C System.Void SimpleJSON.JSONArray::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
+// 0x0000015E System.Void SimpleJSON.JSONArray::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
 extern void JSONArray_WriteToStringBuilder_m64C54C1D36684A7CE5EAB86E3350AE4B811D40C9 (void);
-// 0x0000015D System.Void SimpleJSON.JSONArray::.ctor()
+// 0x0000015F System.Void SimpleJSON.JSONArray::.ctor()
 extern void JSONArray__ctor_m2B6B15254CC3578F4B78A9E5CA656C4D25119512 (void);
-// 0x0000015E System.Void SimpleJSON.JSONArray/<get_Children>d__24::.ctor(System.Int32)
+// 0x00000160 System.Void SimpleJSON.JSONArray/<get_Children>d__24::.ctor(System.Int32)
 extern void U3Cget_ChildrenU3Ed__24__ctor_mC6643FC9306ABFE30E20A00C08D9738D533DB279 (void);
-// 0x0000015F System.Void SimpleJSON.JSONArray/<get_Children>d__24::System.IDisposable.Dispose()
+// 0x00000161 System.Void SimpleJSON.JSONArray/<get_Children>d__24::System.IDisposable.Dispose()
 extern void U3Cget_ChildrenU3Ed__24_System_IDisposable_Dispose_mDDD5192FEDBCC636E7301392862E8CC8315F155E (void);
-// 0x00000160 System.Boolean SimpleJSON.JSONArray/<get_Children>d__24::MoveNext()
+// 0x00000162 System.Boolean SimpleJSON.JSONArray/<get_Children>d__24::MoveNext()
 extern void U3Cget_ChildrenU3Ed__24_MoveNext_mD59D17AA8CF3F462A6A65C89885A61EC5F03C409 (void);
-// 0x00000161 System.Void SimpleJSON.JSONArray/<get_Children>d__24::<>m__Finally1()
+// 0x00000163 System.Void SimpleJSON.JSONArray/<get_Children>d__24::<>m__Finally1()
 extern void U3Cget_ChildrenU3Ed__24_U3CU3Em__Finally1_mFEFCD0DE4E0476CA2C2B2897D7BA097B1928B83A (void);
-// 0x00000162 SimpleJSON.JSONNode SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.get_Current()
+// 0x00000164 SimpleJSON.JSONNode SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.get_Current()
 extern void U3Cget_ChildrenU3Ed__24_System_Collections_Generic_IEnumeratorU3CSimpleJSON_JSONNodeU3E_get_Current_m6143E2C2D943E8398F986B0FD76F13B995D2BE15 (void);
-// 0x00000163 System.Void SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.IEnumerator.Reset()
+// 0x00000165 System.Void SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.IEnumerator.Reset()
 extern void U3Cget_ChildrenU3Ed__24_System_Collections_IEnumerator_Reset_m838D58EEF0F67271515CB056BAA7E7467754D04A (void);
-// 0x00000164 System.Object SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.IEnumerator.get_Current()
+// 0x00000166 System.Object SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.IEnumerator.get_Current()
 extern void U3Cget_ChildrenU3Ed__24_System_Collections_IEnumerator_get_Current_m2B6EE2073CADA240627B5A1419ED1DE249E657E8 (void);
-// 0x00000165 System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode> SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator()
+// 0x00000167 System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode> SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator()
 extern void U3Cget_ChildrenU3Ed__24_System_Collections_Generic_IEnumerableU3CSimpleJSON_JSONNodeU3E_GetEnumerator_mF97261A04403E4BFC8518DB4F85163C057934C26 (void);
-// 0x00000166 System.Collections.IEnumerator SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000168 System.Collections.IEnumerator SimpleJSON.JSONArray/<get_Children>d__24::System.Collections.IEnumerable.GetEnumerator()
 extern void U3Cget_ChildrenU3Ed__24_System_Collections_IEnumerable_GetEnumerator_m29A61F8B9157EB14CF35EFC4495AF8D7CBDB7C39 (void);
-// 0x00000167 System.Boolean SimpleJSON.JSONObject::get_Inline()
+// 0x00000169 System.Boolean SimpleJSON.JSONObject::get_Inline()
 extern void JSONObject_get_Inline_mEBB1EA4AB1EE32D80F2DB4C5C4240DD13593750A (void);
-// 0x00000168 System.Void SimpleJSON.JSONObject::set_Inline(System.Boolean)
+// 0x0000016A System.Void SimpleJSON.JSONObject::set_Inline(System.Boolean)
 extern void JSONObject_set_Inline_mDDC84E63241E060414987E3B8301F7F1AB2967B4 (void);
-// 0x00000169 SimpleJSON.JSONNodeType SimpleJSON.JSONObject::get_Tag()
+// 0x0000016B SimpleJSON.JSONNodeType SimpleJSON.JSONObject::get_Tag()
 extern void JSONObject_get_Tag_m0F8454A3B161D9954B2C1B49945DE0E9041907B6 (void);
-// 0x0000016A System.Boolean SimpleJSON.JSONObject::get_IsObject()
+// 0x0000016C System.Boolean SimpleJSON.JSONObject::get_IsObject()
 extern void JSONObject_get_IsObject_m6E6B9273D50B23643A6DFBD17FBEA6BD6143E12C (void);
-// 0x0000016B SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONObject::GetEnumerator()
+// 0x0000016D SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONObject::GetEnumerator()
 extern void JSONObject_GetEnumerator_mC0AAAB9C27211FED4A7DA97BB1D2DEA1777CABD6 (void);
-// 0x0000016C SimpleJSON.JSONNode SimpleJSON.JSONObject::get_Item(System.String)
+// 0x0000016E SimpleJSON.JSONNode SimpleJSON.JSONObject::get_Item(System.String)
 extern void JSONObject_get_Item_mF7EF352F2BA035D7EFC5902F2DEB12168E586CBD (void);
-// 0x0000016D System.Void SimpleJSON.JSONObject::set_Item(System.String,SimpleJSON.JSONNode)
+// 0x0000016F System.Void SimpleJSON.JSONObject::set_Item(System.String,SimpleJSON.JSONNode)
 extern void JSONObject_set_Item_m84B17410261AD3D4C06D551BB169126C42331DD8 (void);
-// 0x0000016E SimpleJSON.JSONNode SimpleJSON.JSONObject::get_Item(System.Int32)
+// 0x00000170 SimpleJSON.JSONNode SimpleJSON.JSONObject::get_Item(System.Int32)
 extern void JSONObject_get_Item_m28A01147850D0D538204316C35A6E1A823602C0E (void);
-// 0x0000016F System.Void SimpleJSON.JSONObject::set_Item(System.Int32,SimpleJSON.JSONNode)
+// 0x00000171 System.Void SimpleJSON.JSONObject::set_Item(System.Int32,SimpleJSON.JSONNode)
 extern void JSONObject_set_Item_m17A462CA68BCC6AB9A077BD2D5354C2CD9BAA448 (void);
-// 0x00000170 System.Int32 SimpleJSON.JSONObject::get_Count()
+// 0x00000172 System.Int32 SimpleJSON.JSONObject::get_Count()
 extern void JSONObject_get_Count_m5271E2DB59F0A774A71E1313A43FC47D209DE4BD (void);
-// 0x00000171 System.Void SimpleJSON.JSONObject::Add(System.String,SimpleJSON.JSONNode)
+// 0x00000173 System.Void SimpleJSON.JSONObject::Add(System.String,SimpleJSON.JSONNode)
 extern void JSONObject_Add_m89A24748B1E3A3BC627C355AD3F946A5541D0D47 (void);
-// 0x00000172 SimpleJSON.JSONNode SimpleJSON.JSONObject::Remove(System.String)
+// 0x00000174 SimpleJSON.JSONNode SimpleJSON.JSONObject::Remove(System.String)
 extern void JSONObject_Remove_m20C910052474109A5D0B8C63DA98648296C1E846 (void);
-// 0x00000173 SimpleJSON.JSONNode SimpleJSON.JSONObject::Remove(System.Int32)
+// 0x00000175 SimpleJSON.JSONNode SimpleJSON.JSONObject::Remove(System.Int32)
 extern void JSONObject_Remove_m6A66604EDD3CBED40F44D85BAD15342B133A2B21 (void);
-// 0x00000174 SimpleJSON.JSONNode SimpleJSON.JSONObject::Remove(SimpleJSON.JSONNode)
+// 0x00000176 SimpleJSON.JSONNode SimpleJSON.JSONObject::Remove(SimpleJSON.JSONNode)
 extern void JSONObject_Remove_m2000AEFD68838D8F04D250DDFF4E5B2B52D2661A (void);
-// 0x00000175 System.Void SimpleJSON.JSONObject::Clear()
+// 0x00000177 System.Void SimpleJSON.JSONObject::Clear()
 extern void JSONObject_Clear_m5332361D04331BEB78ADA3F299212004967EAE05 (void);
-// 0x00000176 SimpleJSON.JSONNode SimpleJSON.JSONObject::Clone()
+// 0x00000178 SimpleJSON.JSONNode SimpleJSON.JSONObject::Clone()
 extern void JSONObject_Clone_m61BB490DF0D0A7D29453CFB5EBA356865176978A (void);
-// 0x00000177 System.Boolean SimpleJSON.JSONObject::HasKey(System.String)
+// 0x00000179 System.Boolean SimpleJSON.JSONObject::HasKey(System.String)
 extern void JSONObject_HasKey_m818D6C5A3544D891213DC9620E4E8F281FB446E3 (void);
-// 0x00000178 SimpleJSON.JSONNode SimpleJSON.JSONObject::GetValueOrDefault(System.String,SimpleJSON.JSONNode)
+// 0x0000017A SimpleJSON.JSONNode SimpleJSON.JSONObject::GetValueOrDefault(System.String,SimpleJSON.JSONNode)
 extern void JSONObject_GetValueOrDefault_m0C55823832259A1F2E55088F8204DEAFA1AB03C3 (void);
-// 0x00000179 System.Collections.Generic.IEnumerable`1<SimpleJSON.JSONNode> SimpleJSON.JSONObject::get_Children()
+// 0x0000017B System.Collections.Generic.IEnumerable`1<SimpleJSON.JSONNode> SimpleJSON.JSONObject::get_Children()
 extern void JSONObject_get_Children_mDC37B11CC04E072B9E1DFE56A3B176A1E22F8E6D (void);
-// 0x0000017A System.Void SimpleJSON.JSONObject::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
+// 0x0000017C System.Void SimpleJSON.JSONObject::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
 extern void JSONObject_WriteToStringBuilder_m8B9F8C4C58F878A4992C39D21E75CF735DB65F61 (void);
-// 0x0000017B System.Void SimpleJSON.JSONObject::.ctor()
+// 0x0000017D System.Void SimpleJSON.JSONObject::.ctor()
 extern void JSONObject__ctor_m159A8A4A6AD38E7E4786F8EA8FFB9948DF520F92 (void);
-// 0x0000017C System.Void SimpleJSON.JSONObject/<>c__DisplayClass21_0::.ctor()
+// 0x0000017E System.Void SimpleJSON.JSONObject/<>c__DisplayClass21_0::.ctor()
 extern void U3CU3Ec__DisplayClass21_0__ctor_mC0EC999DE1ACB8335F31D6D652C0379FF2D065A6 (void);
-// 0x0000017D System.Boolean SimpleJSON.JSONObject/<>c__DisplayClass21_0::<Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>)
+// 0x0000017F System.Boolean SimpleJSON.JSONObject/<>c__DisplayClass21_0::<Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>)
 extern void U3CU3Ec__DisplayClass21_0_U3CRemoveU3Eb__0_m4DAF41E69ADC8210F10A0E9353204C4C9BB593F0 (void);
-// 0x0000017E System.Void SimpleJSON.JSONObject/<get_Children>d__27::.ctor(System.Int32)
+// 0x00000180 System.Void SimpleJSON.JSONObject/<get_Children>d__27::.ctor(System.Int32)
 extern void U3Cget_ChildrenU3Ed__27__ctor_m8B8957E246F78B1184815B8C085890B41340711D (void);
-// 0x0000017F System.Void SimpleJSON.JSONObject/<get_Children>d__27::System.IDisposable.Dispose()
+// 0x00000181 System.Void SimpleJSON.JSONObject/<get_Children>d__27::System.IDisposable.Dispose()
 extern void U3Cget_ChildrenU3Ed__27_System_IDisposable_Dispose_m9FF83D38681D2D54D43AC8A1B50B1A3C8CBFC2FD (void);
-// 0x00000180 System.Boolean SimpleJSON.JSONObject/<get_Children>d__27::MoveNext()
+// 0x00000182 System.Boolean SimpleJSON.JSONObject/<get_Children>d__27::MoveNext()
 extern void U3Cget_ChildrenU3Ed__27_MoveNext_m5A6D6FE80E1EBD6AA95570CDC2DEFDF6AC948AF8 (void);
-// 0x00000181 System.Void SimpleJSON.JSONObject/<get_Children>d__27::<>m__Finally1()
+// 0x00000183 System.Void SimpleJSON.JSONObject/<get_Children>d__27::<>m__Finally1()
 extern void U3Cget_ChildrenU3Ed__27_U3CU3Em__Finally1_m95B7E9611A12888F1C6F07750B36EDCD06FF0A2D (void);
-// 0x00000182 SimpleJSON.JSONNode SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.get_Current()
+// 0x00000184 SimpleJSON.JSONNode SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.Generic.IEnumerator<SimpleJSON.JSONNode>.get_Current()
 extern void U3Cget_ChildrenU3Ed__27_System_Collections_Generic_IEnumeratorU3CSimpleJSON_JSONNodeU3E_get_Current_mC4ACE0C684380E7DDC8D7EDE0D76749E2B2EBA5F (void);
-// 0x00000183 System.Void SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.IEnumerator.Reset()
+// 0x00000185 System.Void SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.IEnumerator.Reset()
 extern void U3Cget_ChildrenU3Ed__27_System_Collections_IEnumerator_Reset_m8F4944630D5FBA4286ED06697CD6932FB73C76EC (void);
-// 0x00000184 System.Object SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.IEnumerator.get_Current()
+// 0x00000186 System.Object SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.IEnumerator.get_Current()
 extern void U3Cget_ChildrenU3Ed__27_System_Collections_IEnumerator_get_Current_mECECB942275EF47371EA737AC48C607909027DA3 (void);
-// 0x00000185 System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode> SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator()
+// 0x00000187 System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode> SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.Generic.IEnumerable<SimpleJSON.JSONNode>.GetEnumerator()
 extern void U3Cget_ChildrenU3Ed__27_System_Collections_Generic_IEnumerableU3CSimpleJSON_JSONNodeU3E_GetEnumerator_mBA4BBCF2F261D002F57438B8F03BDF263810D942 (void);
-// 0x00000186 System.Collections.IEnumerator SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000188 System.Collections.IEnumerator SimpleJSON.JSONObject/<get_Children>d__27::System.Collections.IEnumerable.GetEnumerator()
 extern void U3Cget_ChildrenU3Ed__27_System_Collections_IEnumerable_GetEnumerator_m0EC44BA64BA97F3BA0655F7809FEC0EFE289C8F0 (void);
-// 0x00000187 SimpleJSON.JSONNodeType SimpleJSON.JSONString::get_Tag()
+// 0x00000189 SimpleJSON.JSONNodeType SimpleJSON.JSONString::get_Tag()
 extern void JSONString_get_Tag_m8CD40E0F8FEA6E68B02D661527AAB26E581AD925 (void);
-// 0x00000188 System.Boolean SimpleJSON.JSONString::get_IsString()
+// 0x0000018A System.Boolean SimpleJSON.JSONString::get_IsString()
 extern void JSONString_get_IsString_mE62F3299F2BDCFA5704FEFBB6D6174C7D18EFEA0 (void);
-// 0x00000189 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONString::GetEnumerator()
+// 0x0000018B SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONString::GetEnumerator()
 extern void JSONString_GetEnumerator_m2DB5AD3DA3FA00B24522A9083E0EC92952D28C14 (void);
-// 0x0000018A System.String SimpleJSON.JSONString::get_Value()
+// 0x0000018C System.String SimpleJSON.JSONString::get_Value()
 extern void JSONString_get_Value_m0A72F580BA1EBD98A7592810069BDF215BC737F0 (void);
-// 0x0000018B System.Void SimpleJSON.JSONString::set_Value(System.String)
+// 0x0000018D System.Void SimpleJSON.JSONString::set_Value(System.String)
 extern void JSONString_set_Value_m9B7FCFDF82ED801A434AC208F52582A2B0DF2164 (void);
-// 0x0000018C System.Void SimpleJSON.JSONString::.ctor(System.String)
+// 0x0000018E System.Void SimpleJSON.JSONString::.ctor(System.String)
 extern void JSONString__ctor_mE09DCD65C60DE37D1F0F79BD6902E464EE1960A3 (void);
-// 0x0000018D SimpleJSON.JSONNode SimpleJSON.JSONString::Clone()
+// 0x0000018F SimpleJSON.JSONNode SimpleJSON.JSONString::Clone()
 extern void JSONString_Clone_m1B348BFEED419701F25E81BCB6F804B6D72B131D (void);
-// 0x0000018E System.Void SimpleJSON.JSONString::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
+// 0x00000190 System.Void SimpleJSON.JSONString::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
 extern void JSONString_WriteToStringBuilder_mB338AAA2644A34B03F6DBE6620F8370C64D15627 (void);
-// 0x0000018F System.Boolean SimpleJSON.JSONString::Equals(System.Object)
+// 0x00000191 System.Boolean SimpleJSON.JSONString::Equals(System.Object)
 extern void JSONString_Equals_m9709B63863E6B7E1000EF9E0318B2C499D325B92 (void);
-// 0x00000190 System.Int32 SimpleJSON.JSONString::GetHashCode()
+// 0x00000192 System.Int32 SimpleJSON.JSONString::GetHashCode()
 extern void JSONString_GetHashCode_m573FB034DD33C5A300F358A318A0BCA761E35AB1 (void);
-// 0x00000191 System.Void SimpleJSON.JSONString::Clear()
+// 0x00000193 System.Void SimpleJSON.JSONString::Clear()
 extern void JSONString_Clear_mEABC1369E1751A8B6ACCF8F69DB736B8EDB35446 (void);
-// 0x00000192 SimpleJSON.JSONNodeType SimpleJSON.JSONNumber::get_Tag()
+// 0x00000194 SimpleJSON.JSONNodeType SimpleJSON.JSONNumber::get_Tag()
 extern void JSONNumber_get_Tag_mC3886860EBAEBED98DF4B58A2E5D2DA1C86D0DF0 (void);
-// 0x00000193 System.Boolean SimpleJSON.JSONNumber::get_IsNumber()
+// 0x00000195 System.Boolean SimpleJSON.JSONNumber::get_IsNumber()
 extern void JSONNumber_get_IsNumber_m55E3251DC2B157F6A06A78047C8B7F6A8710CFC1 (void);
-// 0x00000194 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONNumber::GetEnumerator()
+// 0x00000196 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONNumber::GetEnumerator()
 extern void JSONNumber_GetEnumerator_m48371CA028B151ED79247AB9B49B7B120C172F78 (void);
-// 0x00000195 System.String SimpleJSON.JSONNumber::get_Value()
+// 0x00000197 System.String SimpleJSON.JSONNumber::get_Value()
 extern void JSONNumber_get_Value_m02C36CBFEEDCE75834055B25A6F0F9845B661B98 (void);
-// 0x00000196 System.Void SimpleJSON.JSONNumber::set_Value(System.String)
+// 0x00000198 System.Void SimpleJSON.JSONNumber::set_Value(System.String)
 extern void JSONNumber_set_Value_m437CA8FBE33C4A5C6CA4E2951767974987142A01 (void);
-// 0x00000197 System.Double SimpleJSON.JSONNumber::get_AsDouble()
+// 0x00000199 System.Double SimpleJSON.JSONNumber::get_AsDouble()
 extern void JSONNumber_get_AsDouble_m181BFF83082F0A4A380023EDE5D1EA55B0EC6427 (void);
-// 0x00000198 System.Void SimpleJSON.JSONNumber::set_AsDouble(System.Double)
+// 0x0000019A System.Void SimpleJSON.JSONNumber::set_AsDouble(System.Double)
 extern void JSONNumber_set_AsDouble_m48E57B49311F9720098069A63A056AF5B44AECBE (void);
-// 0x00000199 System.Int64 SimpleJSON.JSONNumber::get_AsLong()
+// 0x0000019B System.Int64 SimpleJSON.JSONNumber::get_AsLong()
 extern void JSONNumber_get_AsLong_m90536472498BCF68E5528450B74FB18631A259CD (void);
-// 0x0000019A System.Void SimpleJSON.JSONNumber::set_AsLong(System.Int64)
+// 0x0000019C System.Void SimpleJSON.JSONNumber::set_AsLong(System.Int64)
 extern void JSONNumber_set_AsLong_m20401499383A612EAEB52744144B36B7D6ED4A67 (void);
-// 0x0000019B System.UInt64 SimpleJSON.JSONNumber::get_AsULong()
+// 0x0000019D System.UInt64 SimpleJSON.JSONNumber::get_AsULong()
 extern void JSONNumber_get_AsULong_m349C4A11ADBFD63715DC6CF6D3610E9E3004B1B3 (void);
-// 0x0000019C System.Void SimpleJSON.JSONNumber::set_AsULong(System.UInt64)
+// 0x0000019E System.Void SimpleJSON.JSONNumber::set_AsULong(System.UInt64)
 extern void JSONNumber_set_AsULong_mC3F7E64D6FF0D26CDD05DC9984C756C0521E78CD (void);
-// 0x0000019D System.Void SimpleJSON.JSONNumber::.ctor(System.Double)
+// 0x0000019F System.Void SimpleJSON.JSONNumber::.ctor(System.Double)
 extern void JSONNumber__ctor_mD0AF1324557B9FC7B1D63842D2CA65EC2D1A643A (void);
-// 0x0000019E System.Void SimpleJSON.JSONNumber::.ctor(System.String)
+// 0x000001A0 System.Void SimpleJSON.JSONNumber::.ctor(System.String)
 extern void JSONNumber__ctor_m03A803840EF273185C5C63642FAA70FAF9DFE40E (void);
-// 0x0000019F SimpleJSON.JSONNode SimpleJSON.JSONNumber::Clone()
+// 0x000001A1 SimpleJSON.JSONNode SimpleJSON.JSONNumber::Clone()
 extern void JSONNumber_Clone_m81C53D05C5E0E487036EBE26CE3FDDF79DB88362 (void);
-// 0x000001A0 System.Void SimpleJSON.JSONNumber::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
+// 0x000001A2 System.Void SimpleJSON.JSONNumber::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
 extern void JSONNumber_WriteToStringBuilder_m48A94BA46F195E37F78A7AA167655AE1E870231A (void);
-// 0x000001A1 System.Boolean SimpleJSON.JSONNumber::IsNumeric(System.Object)
+// 0x000001A3 System.Boolean SimpleJSON.JSONNumber::IsNumeric(System.Object)
 extern void JSONNumber_IsNumeric_mEA4ED6C1587A4D94F5D6F30B12FA284AB56F11EB (void);
-// 0x000001A2 System.Boolean SimpleJSON.JSONNumber::Equals(System.Object)
+// 0x000001A4 System.Boolean SimpleJSON.JSONNumber::Equals(System.Object)
 extern void JSONNumber_Equals_m0D80E8BA86AA78FBB0482F9F053A0BACB65D8D97 (void);
-// 0x000001A3 System.Int32 SimpleJSON.JSONNumber::GetHashCode()
+// 0x000001A5 System.Int32 SimpleJSON.JSONNumber::GetHashCode()
 extern void JSONNumber_GetHashCode_mB10776EF12594532AB12FA617D1BF18FC53C790C (void);
-// 0x000001A4 System.Void SimpleJSON.JSONNumber::Clear()
+// 0x000001A6 System.Void SimpleJSON.JSONNumber::Clear()
 extern void JSONNumber_Clear_m63292B1A0C3FE42BB3DABEDF12F25ECE633C66AA (void);
-// 0x000001A5 SimpleJSON.JSONNodeType SimpleJSON.JSONBool::get_Tag()
+// 0x000001A7 SimpleJSON.JSONNodeType SimpleJSON.JSONBool::get_Tag()
 extern void JSONBool_get_Tag_m43F4216FE45F0043979093D7BE5FD16C0F462A62 (void);
-// 0x000001A6 System.Boolean SimpleJSON.JSONBool::get_IsBoolean()
+// 0x000001A8 System.Boolean SimpleJSON.JSONBool::get_IsBoolean()
 extern void JSONBool_get_IsBoolean_mE70A4F82605CAB1E14A70413FC42EF66ADBAB727 (void);
-// 0x000001A7 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONBool::GetEnumerator()
+// 0x000001A9 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONBool::GetEnumerator()
 extern void JSONBool_GetEnumerator_mA15666FFF18AADF12912689A521087C98B5B2D1C (void);
-// 0x000001A8 System.String SimpleJSON.JSONBool::get_Value()
+// 0x000001AA System.String SimpleJSON.JSONBool::get_Value()
 extern void JSONBool_get_Value_m11D2863303B2003F337549581C8A583A6A3B4D74 (void);
-// 0x000001A9 System.Void SimpleJSON.JSONBool::set_Value(System.String)
+// 0x000001AB System.Void SimpleJSON.JSONBool::set_Value(System.String)
 extern void JSONBool_set_Value_mA7FB197B21177B947BC3C2940A63724FE532E373 (void);
-// 0x000001AA System.Boolean SimpleJSON.JSONBool::get_AsBool()
+// 0x000001AC System.Boolean SimpleJSON.JSONBool::get_AsBool()
 extern void JSONBool_get_AsBool_mA5617A7BC781E111FBD24A7E53FB34C7DE6F62B6 (void);
-// 0x000001AB System.Void SimpleJSON.JSONBool::set_AsBool(System.Boolean)
+// 0x000001AD System.Void SimpleJSON.JSONBool::set_AsBool(System.Boolean)
 extern void JSONBool_set_AsBool_mDDD0D1CA7B06DAD37AA13987F46B95C6A1AEF489 (void);
-// 0x000001AC System.Void SimpleJSON.JSONBool::.ctor(System.Boolean)
+// 0x000001AE System.Void SimpleJSON.JSONBool::.ctor(System.Boolean)
 extern void JSONBool__ctor_m7593DD0B3E9628BA9BB4DE4A0E904BBA6BF151C1 (void);
-// 0x000001AD System.Void SimpleJSON.JSONBool::.ctor(System.String)
+// 0x000001AF System.Void SimpleJSON.JSONBool::.ctor(System.String)
 extern void JSONBool__ctor_m8E5E6A23827EE2B5DB5E7C86377805ADD8A771B2 (void);
-// 0x000001AE SimpleJSON.JSONNode SimpleJSON.JSONBool::Clone()
+// 0x000001B0 SimpleJSON.JSONNode SimpleJSON.JSONBool::Clone()
 extern void JSONBool_Clone_m178E246F0EAC6CC4111AD644E59227A7601C1CD7 (void);
-// 0x000001AF System.Void SimpleJSON.JSONBool::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
+// 0x000001B1 System.Void SimpleJSON.JSONBool::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
 extern void JSONBool_WriteToStringBuilder_m7EA9750436CEE42357B6A109B83870F4FC2C403E (void);
-// 0x000001B0 System.Boolean SimpleJSON.JSONBool::Equals(System.Object)
+// 0x000001B2 System.Boolean SimpleJSON.JSONBool::Equals(System.Object)
 extern void JSONBool_Equals_m57A524B4FEBF04285341E4FC42EDEDE7A524F4BB (void);
-// 0x000001B1 System.Int32 SimpleJSON.JSONBool::GetHashCode()
+// 0x000001B3 System.Int32 SimpleJSON.JSONBool::GetHashCode()
 extern void JSONBool_GetHashCode_m49A9C417E05DFB795FAE0F38737C7629A3A69A22 (void);
-// 0x000001B2 System.Void SimpleJSON.JSONBool::Clear()
+// 0x000001B4 System.Void SimpleJSON.JSONBool::Clear()
 extern void JSONBool_Clear_m6016646BC5B21519731150E9F36528CBD753838A (void);
-// 0x000001B3 SimpleJSON.JSONNull SimpleJSON.JSONNull::CreateOrGet()
+// 0x000001B5 SimpleJSON.JSONNull SimpleJSON.JSONNull::CreateOrGet()
 extern void JSONNull_CreateOrGet_m96465EECF543329FFBBC26B552EDB6E43D8DBC90 (void);
-// 0x000001B4 System.Void SimpleJSON.JSONNull::.ctor()
+// 0x000001B6 System.Void SimpleJSON.JSONNull::.ctor()
 extern void JSONNull__ctor_mA4FF0FB3001766DFB7A8D8C23063101AC377F277 (void);
-// 0x000001B5 SimpleJSON.JSONNodeType SimpleJSON.JSONNull::get_Tag()
+// 0x000001B7 SimpleJSON.JSONNodeType SimpleJSON.JSONNull::get_Tag()
 extern void JSONNull_get_Tag_m2A705402C448944F6395AAC88DA5DE7ADF99C4D1 (void);
-// 0x000001B6 System.Boolean SimpleJSON.JSONNull::get_IsNull()
+// 0x000001B8 System.Boolean SimpleJSON.JSONNull::get_IsNull()
 extern void JSONNull_get_IsNull_m1964A7B7E9C0FD17CDE2E4DFDF6345FE03EBA59B (void);
-// 0x000001B7 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONNull::GetEnumerator()
+// 0x000001B9 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONNull::GetEnumerator()
 extern void JSONNull_GetEnumerator_m7B4ADD53B56B6663A0832AC611D7B47FA98D1A35 (void);
-// 0x000001B8 System.String SimpleJSON.JSONNull::get_Value()
+// 0x000001BA System.String SimpleJSON.JSONNull::get_Value()
 extern void JSONNull_get_Value_m76B2E412BD13C31AD68C272CA9AF2E6063F165D3 (void);
-// 0x000001B9 System.Void SimpleJSON.JSONNull::set_Value(System.String)
+// 0x000001BB System.Void SimpleJSON.JSONNull::set_Value(System.String)
 extern void JSONNull_set_Value_m713260989D4BA62C8B8CD716893585A1AA88ABE9 (void);
-// 0x000001BA System.Boolean SimpleJSON.JSONNull::get_AsBool()
+// 0x000001BC System.Boolean SimpleJSON.JSONNull::get_AsBool()
 extern void JSONNull_get_AsBool_m5E619608D71A63CBD234CA282B3BB2A7EFF385D5 (void);
-// 0x000001BB System.Void SimpleJSON.JSONNull::set_AsBool(System.Boolean)
+// 0x000001BD System.Void SimpleJSON.JSONNull::set_AsBool(System.Boolean)
 extern void JSONNull_set_AsBool_m267D1AA7D6003F371DC10DB65EB4E80643BB99F1 (void);
-// 0x000001BC SimpleJSON.JSONNode SimpleJSON.JSONNull::Clone()
+// 0x000001BE SimpleJSON.JSONNode SimpleJSON.JSONNull::Clone()
 extern void JSONNull_Clone_m3A730FF65AD2F4141328305059677DBED63A6FF2 (void);
-// 0x000001BD System.Boolean SimpleJSON.JSONNull::Equals(System.Object)
+// 0x000001BF System.Boolean SimpleJSON.JSONNull::Equals(System.Object)
 extern void JSONNull_Equals_m3063912429EF72D2F9AFAEDF0D0303EB5D60A893 (void);
-// 0x000001BE System.Int32 SimpleJSON.JSONNull::GetHashCode()
+// 0x000001C0 System.Int32 SimpleJSON.JSONNull::GetHashCode()
 extern void JSONNull_GetHashCode_m899F43B83E13ABFDE999C3781C45C6C03CC21077 (void);
-// 0x000001BF System.Void SimpleJSON.JSONNull::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
+// 0x000001C1 System.Void SimpleJSON.JSONNull::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
 extern void JSONNull_WriteToStringBuilder_m66FC8C85A593D6198406753B845BFECA59117B46 (void);
-// 0x000001C0 System.Void SimpleJSON.JSONNull::.cctor()
+// 0x000001C2 System.Void SimpleJSON.JSONNull::.cctor()
 extern void JSONNull__cctor_mF5CFD47108FE35E808A8BA6514AA8283BBFD3193 (void);
-// 0x000001C1 SimpleJSON.JSONNodeType SimpleJSON.JSONLazyCreator::get_Tag()
+// 0x000001C3 SimpleJSON.JSONNodeType SimpleJSON.JSONLazyCreator::get_Tag()
 extern void JSONLazyCreator_get_Tag_m492C25FDFDC35D2EFB17711E1C259976A38BB46E (void);
-// 0x000001C2 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONLazyCreator::GetEnumerator()
+// 0x000001C4 SimpleJSON.JSONNode/Enumerator SimpleJSON.JSONLazyCreator::GetEnumerator()
 extern void JSONLazyCreator_GetEnumerator_m6B2038B21158F725FC5B607544FB590A0E313AEC (void);
-// 0x000001C3 System.Void SimpleJSON.JSONLazyCreator::.ctor(SimpleJSON.JSONNode)
+// 0x000001C5 System.Void SimpleJSON.JSONLazyCreator::.ctor(SimpleJSON.JSONNode)
 extern void JSONLazyCreator__ctor_m790C925B9AD99D9F574C556397F3C2D868D2F7EE (void);
-// 0x000001C4 System.Void SimpleJSON.JSONLazyCreator::.ctor(SimpleJSON.JSONNode,System.String)
+// 0x000001C6 System.Void SimpleJSON.JSONLazyCreator::.ctor(SimpleJSON.JSONNode,System.String)
 extern void JSONLazyCreator__ctor_mE9B31AC731EAF8B853DA1671147CD5B9B5C6F10A (void);
-// 0x000001C5 T SimpleJSON.JSONLazyCreator::Set(T)
-// 0x000001C6 SimpleJSON.JSONNode SimpleJSON.JSONLazyCreator::get_Item(System.Int32)
+// 0x000001C7 T SimpleJSON.JSONLazyCreator::Set(T)
+// 0x000001C8 SimpleJSON.JSONNode SimpleJSON.JSONLazyCreator::get_Item(System.Int32)
 extern void JSONLazyCreator_get_Item_m0A09379FDB2D2CB95B781D1E3A03855661A0F446 (void);
-// 0x000001C7 System.Void SimpleJSON.JSONLazyCreator::set_Item(System.Int32,SimpleJSON.JSONNode)
+// 0x000001C9 System.Void SimpleJSON.JSONLazyCreator::set_Item(System.Int32,SimpleJSON.JSONNode)
 extern void JSONLazyCreator_set_Item_mE77E182C7C150529FBA7BD013A03F95FDCA25E9E (void);
-// 0x000001C8 SimpleJSON.JSONNode SimpleJSON.JSONLazyCreator::get_Item(System.String)
+// 0x000001CA SimpleJSON.JSONNode SimpleJSON.JSONLazyCreator::get_Item(System.String)
 extern void JSONLazyCreator_get_Item_m55D3BD8AF905099931604EACC6A907C17AACA753 (void);
-// 0x000001C9 System.Void SimpleJSON.JSONLazyCreator::set_Item(System.String,SimpleJSON.JSONNode)
+// 0x000001CB System.Void SimpleJSON.JSONLazyCreator::set_Item(System.String,SimpleJSON.JSONNode)
 extern void JSONLazyCreator_set_Item_m8E286CF72FF8622427E69587C30C91BE0D242FCF (void);
-// 0x000001CA System.Void SimpleJSON.JSONLazyCreator::Add(SimpleJSON.JSONNode)
+// 0x000001CC System.Void SimpleJSON.JSONLazyCreator::Add(SimpleJSON.JSONNode)
 extern void JSONLazyCreator_Add_m7393F681C0F1D9F798D3FEAE8C3A37C9F73E0E1B (void);
-// 0x000001CB System.Void SimpleJSON.JSONLazyCreator::Add(System.String,SimpleJSON.JSONNode)
+// 0x000001CD System.Void SimpleJSON.JSONLazyCreator::Add(System.String,SimpleJSON.JSONNode)
 extern void JSONLazyCreator_Add_m8762C532A8EBAFF5AE213C3B2A9AC983653C8D37 (void);
-// 0x000001CC System.Boolean SimpleJSON.JSONLazyCreator::op_Equality(SimpleJSON.JSONLazyCreator,System.Object)
+// 0x000001CE System.Boolean SimpleJSON.JSONLazyCreator::op_Equality(SimpleJSON.JSONLazyCreator,System.Object)
 extern void JSONLazyCreator_op_Equality_mF472937FE1ABFEBCEB8A717561AB198CCB0F75E8 (void);
-// 0x000001CD System.Boolean SimpleJSON.JSONLazyCreator::op_Inequality(SimpleJSON.JSONLazyCreator,System.Object)
+// 0x000001CF System.Boolean SimpleJSON.JSONLazyCreator::op_Inequality(SimpleJSON.JSONLazyCreator,System.Object)
 extern void JSONLazyCreator_op_Inequality_m8C2EB320847B968D52F5E5D96599F734FEEE8ACA (void);
-// 0x000001CE System.Boolean SimpleJSON.JSONLazyCreator::Equals(System.Object)
+// 0x000001D0 System.Boolean SimpleJSON.JSONLazyCreator::Equals(System.Object)
 extern void JSONLazyCreator_Equals_m94A17EF99F288D175F1A40DC7B6569643CA84DD9 (void);
-// 0x000001CF System.Int32 SimpleJSON.JSONLazyCreator::GetHashCode()
+// 0x000001D1 System.Int32 SimpleJSON.JSONLazyCreator::GetHashCode()
 extern void JSONLazyCreator_GetHashCode_m85E38D69ED1F0970E4EE3583196A4E9CD37C9DAF (void);
-// 0x000001D0 System.Int32 SimpleJSON.JSONLazyCreator::get_AsInt()
+// 0x000001D2 System.Int32 SimpleJSON.JSONLazyCreator::get_AsInt()
 extern void JSONLazyCreator_get_AsInt_m8C8C09CC03C6E229A680D004C070734C424DA012 (void);
-// 0x000001D1 System.Void SimpleJSON.JSONLazyCreator::set_AsInt(System.Int32)
+// 0x000001D3 System.Void SimpleJSON.JSONLazyCreator::set_AsInt(System.Int32)
 extern void JSONLazyCreator_set_AsInt_m9CEB176958FE16A9213B7828EEAF442F54E70587 (void);
-// 0x000001D2 System.Single SimpleJSON.JSONLazyCreator::get_AsFloat()
+// 0x000001D4 System.Single SimpleJSON.JSONLazyCreator::get_AsFloat()
 extern void JSONLazyCreator_get_AsFloat_m1EC025D56616385B163C548183783BA8E4FD67E4 (void);
-// 0x000001D3 System.Void SimpleJSON.JSONLazyCreator::set_AsFloat(System.Single)
+// 0x000001D5 System.Void SimpleJSON.JSONLazyCreator::set_AsFloat(System.Single)
 extern void JSONLazyCreator_set_AsFloat_mAECCEF9C5598A5EA2204CDD1730D19B073050956 (void);
-// 0x000001D4 System.Double SimpleJSON.JSONLazyCreator::get_AsDouble()
+// 0x000001D6 System.Double SimpleJSON.JSONLazyCreator::get_AsDouble()
 extern void JSONLazyCreator_get_AsDouble_m019E3ACC054CCE18601A8731E772C86C62C09545 (void);
-// 0x000001D5 System.Void SimpleJSON.JSONLazyCreator::set_AsDouble(System.Double)
+// 0x000001D7 System.Void SimpleJSON.JSONLazyCreator::set_AsDouble(System.Double)
 extern void JSONLazyCreator_set_AsDouble_mBFEC4A9E9A946716829F584BE00CFA35D8DBA1E2 (void);
-// 0x000001D6 System.Int64 SimpleJSON.JSONLazyCreator::get_AsLong()
+// 0x000001D8 System.Int64 SimpleJSON.JSONLazyCreator::get_AsLong()
 extern void JSONLazyCreator_get_AsLong_m161CBB667B3FDEA081301BA2A124D453DDCC9857 (void);
-// 0x000001D7 System.Void SimpleJSON.JSONLazyCreator::set_AsLong(System.Int64)
+// 0x000001D9 System.Void SimpleJSON.JSONLazyCreator::set_AsLong(System.Int64)
 extern void JSONLazyCreator_set_AsLong_m7B9BDA7A244D499024AD09EC076CE22D8E55B00B (void);
-// 0x000001D8 System.UInt64 SimpleJSON.JSONLazyCreator::get_AsULong()
+// 0x000001DA System.UInt64 SimpleJSON.JSONLazyCreator::get_AsULong()
 extern void JSONLazyCreator_get_AsULong_m66E1A67155C226A193BAB3B3397184FA659427C4 (void);
-// 0x000001D9 System.Void SimpleJSON.JSONLazyCreator::set_AsULong(System.UInt64)
+// 0x000001DB System.Void SimpleJSON.JSONLazyCreator::set_AsULong(System.UInt64)
 extern void JSONLazyCreator_set_AsULong_m1C89441A1BD933E6F9B570E5954EAA08B822D6C3 (void);
-// 0x000001DA System.Boolean SimpleJSON.JSONLazyCreator::get_AsBool()
+// 0x000001DC System.Boolean SimpleJSON.JSONLazyCreator::get_AsBool()
 extern void JSONLazyCreator_get_AsBool_mE7E32A21C51AFA46EC9BE4F78E96AE20986E7E00 (void);
-// 0x000001DB System.Void SimpleJSON.JSONLazyCreator::set_AsBool(System.Boolean)
+// 0x000001DD System.Void SimpleJSON.JSONLazyCreator::set_AsBool(System.Boolean)
 extern void JSONLazyCreator_set_AsBool_m700796091E7C1940E21834CE4BB1A8FD80017094 (void);
-// 0x000001DC SimpleJSON.JSONArray SimpleJSON.JSONLazyCreator::get_AsArray()
+// 0x000001DE SimpleJSON.JSONArray SimpleJSON.JSONLazyCreator::get_AsArray()
 extern void JSONLazyCreator_get_AsArray_mF737B0C7548A4C304278366931569BD173D4C2C6 (void);
-// 0x000001DD SimpleJSON.JSONObject SimpleJSON.JSONLazyCreator::get_AsObject()
+// 0x000001DF SimpleJSON.JSONObject SimpleJSON.JSONLazyCreator::get_AsObject()
 extern void JSONLazyCreator_get_AsObject_m0678D4A1725598B36657E07D1626B8387D3B4C88 (void);
-// 0x000001DE System.Void SimpleJSON.JSONLazyCreator::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
+// 0x000001E0 System.Void SimpleJSON.JSONLazyCreator::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,SimpleJSON.JSONTextMode)
 extern void JSONLazyCreator_WriteToStringBuilder_m20163F20F4F24E7E82C30AAA1878AE7DE301D0E9 (void);
-// 0x000001DF SimpleJSON.JSONNode SimpleJSON.JSON::Parse(System.String)
+// 0x000001E1 SimpleJSON.JSONNode SimpleJSON.JSON::Parse(System.String)
 extern void JSON_Parse_mEAB5874EF687F205543F8469A9FAE7DB3C134421 (void);
-static Il2CppMethodPointer s_methodPointers[479] = 
+static Il2CppMethodPointer s_methodPointers[481] = 
 {
 	AdsManager_Start_m561A6D94B810C2CBBAD6235533FEF81D3FCB93BA,
 	AdsManager_Update_m84B68116B4140F28E1729396720F8FCD9F790646,
@@ -1174,6 +1178,8 @@ static Il2CppMethodPointer s_methodPointers[479] =
 	tap_object_Start_mBAD350BE5A806D3570EEF4BF61A9233885AE4DB1,
 	tap_object_Update_mB41FD1348A284E6EB2CA447FC2958512D3742493,
 	tap_object__ctor_mC1EF38F509EDE51084169076BEA31AC0EE0B5284,
+	Delete_OnStateExit_mB2D5B4ECD42EDE45E846E822059FA116755F209D,
+	Delete__ctor_m5A0CC170551ECF5DDED93D6939877DBCD3EABF62,
 	IconPreview_Awake_mD330471AA6E0259A3EE92FADE843189B6463D21E,
 	IconPreview_Update_mE7394435FCE9210899203B0724F7E2717868CF04,
 	IconPreview__ctor_m6739A07D0628A74DB7748300B21999D113B0FDBE,
@@ -1467,509 +1473,511 @@ extern void KeyEnumerator_MoveNext_mFF5FB4ECB623B58733E9B85846A296853462F2F4_Adj
 extern void KeyEnumerator_GetEnumerator_m4534071ECBA3E7165BB0DC642EA9E827A29F5A87_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[17] = 
 {
-	{ 0x06000121, Enumerator_get_IsValid_m078841FA11B23FAA03C8C0F0F5CFE1C7A33CC267_AdjustorThunk },
-	{ 0x06000122, Enumerator__ctor_m0A9EDBF3F33AA5FAE87C204FA885D965D16E8A44_AdjustorThunk },
-	{ 0x06000123, Enumerator__ctor_mDE6D3B06DF10240F0C637131119C8B09CE9EC4DC_AdjustorThunk },
-	{ 0x06000124, Enumerator_get_Current_m6C700A8C86DAB32F9FE845C3BE1E35D17757C65C_AdjustorThunk },
-	{ 0x06000125, Enumerator_MoveNext_m095925BE3D881DF1E015997DBEAFE0851722E53E_AdjustorThunk },
-	{ 0x06000126, ValueEnumerator__ctor_m1FF9C4191C706E48C3F9A191D0CE02F9BECDCE45_AdjustorThunk },
-	{ 0x06000127, ValueEnumerator__ctor_m8143FFB5AD9AB3936DF1A59E3492C2CF81793AF5_AdjustorThunk },
-	{ 0x06000128, ValueEnumerator__ctor_mE92051B3948C6A45D4F9265EA6D8329D70649D06_AdjustorThunk },
-	{ 0x06000129, ValueEnumerator_get_Current_mAB38FFFD4C1293C61EE73C825D85B7258B61961C_AdjustorThunk },
-	{ 0x0600012A, ValueEnumerator_MoveNext_mE68E69AFB9D6FA2B41F55B066F3295490EED5589_AdjustorThunk },
-	{ 0x0600012B, ValueEnumerator_GetEnumerator_mF841522782073D8D5F9782A37B2487BEA63E5E09_AdjustorThunk },
-	{ 0x0600012C, KeyEnumerator__ctor_m6E59374D6FF2E994DFB9BFCA3759CC335CA48D23_AdjustorThunk },
-	{ 0x0600012D, KeyEnumerator__ctor_mB67A74FB33429333A208FA269F011122C1AB6395_AdjustorThunk },
-	{ 0x0600012E, KeyEnumerator__ctor_m5F83F3F252DE00DB6AC2AE59FD501F921C56F224_AdjustorThunk },
-	{ 0x0600012F, KeyEnumerator_get_Current_m2F8F06987AA5A1600CFA852F7510BF01A3F4DEB4_AdjustorThunk },
-	{ 0x06000130, KeyEnumerator_MoveNext_mFF5FB4ECB623B58733E9B85846A296853462F2F4_AdjustorThunk },
-	{ 0x06000131, KeyEnumerator_GetEnumerator_m4534071ECBA3E7165BB0DC642EA9E827A29F5A87_AdjustorThunk },
+	{ 0x06000123, Enumerator_get_IsValid_m078841FA11B23FAA03C8C0F0F5CFE1C7A33CC267_AdjustorThunk },
+	{ 0x06000124, Enumerator__ctor_m0A9EDBF3F33AA5FAE87C204FA885D965D16E8A44_AdjustorThunk },
+	{ 0x06000125, Enumerator__ctor_mDE6D3B06DF10240F0C637131119C8B09CE9EC4DC_AdjustorThunk },
+	{ 0x06000126, Enumerator_get_Current_m6C700A8C86DAB32F9FE845C3BE1E35D17757C65C_AdjustorThunk },
+	{ 0x06000127, Enumerator_MoveNext_m095925BE3D881DF1E015997DBEAFE0851722E53E_AdjustorThunk },
+	{ 0x06000128, ValueEnumerator__ctor_m1FF9C4191C706E48C3F9A191D0CE02F9BECDCE45_AdjustorThunk },
+	{ 0x06000129, ValueEnumerator__ctor_m8143FFB5AD9AB3936DF1A59E3492C2CF81793AF5_AdjustorThunk },
+	{ 0x0600012A, ValueEnumerator__ctor_mE92051B3948C6A45D4F9265EA6D8329D70649D06_AdjustorThunk },
+	{ 0x0600012B, ValueEnumerator_get_Current_mAB38FFFD4C1293C61EE73C825D85B7258B61961C_AdjustorThunk },
+	{ 0x0600012C, ValueEnumerator_MoveNext_mE68E69AFB9D6FA2B41F55B066F3295490EED5589_AdjustorThunk },
+	{ 0x0600012D, ValueEnumerator_GetEnumerator_mF841522782073D8D5F9782A37B2487BEA63E5E09_AdjustorThunk },
+	{ 0x0600012E, KeyEnumerator__ctor_m6E59374D6FF2E994DFB9BFCA3759CC335CA48D23_AdjustorThunk },
+	{ 0x0600012F, KeyEnumerator__ctor_mB67A74FB33429333A208FA269F011122C1AB6395_AdjustorThunk },
+	{ 0x06000130, KeyEnumerator__ctor_m5F83F3F252DE00DB6AC2AE59FD501F921C56F224_AdjustorThunk },
+	{ 0x06000131, KeyEnumerator_get_Current_m2F8F06987AA5A1600CFA852F7510BF01A3F4DEB4_AdjustorThunk },
+	{ 0x06000132, KeyEnumerator_MoveNext_mFF5FB4ECB623B58733E9B85846A296853462F2F4_AdjustorThunk },
+	{ 0x06000133, KeyEnumerator_GetEnumerator_m4534071ECBA3E7165BB0DC642EA9E827A29F5A87_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[479] = 
+static const int32_t s_InvokerIndices[481] = 
 {
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	680,
-	1263,
-	1263,
-	1263,
-	1263,
-	1082,
-	471,
-	471,
-	1082,
-	1082,
-	721,
-	1263,
-	1263,
-	1263,
-	1072,
-	721,
-	1082,
-	471,
-	471,
-	1082,
-	1082,
-	1263,
-	2131,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1231,
-	1263,
-	1263,
-	1082,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1263,
-	1263,
-	1082,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1231,
-	1072,
-	1072,
-	1263,
-	1263,
-	1072,
-	1231,
-	1072,
-	1263,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1263,
-	1263,
-	1082,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1231,
-	1231,
-	1263,
-	1231,
-	1263,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1263,
-	1263,
-	2107,
-	2127,
-	2107,
-	2127,
-	1231,
-	1263,
-	1263,
-	1231,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1231,
-	1231,
-	1263,
-	1263,
-	1082,
-	878,
-	1263,
-	1263,
-	1263,
-	1263,
-	879,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1231,
-	1082,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	2144,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1263,
-	1263,
-	1263,
-	1231,
-	1263,
-	1263,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1263,
-	1219,
-	878,
-	680,
-	881,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	683,
+	1278,
+	1278,
+	1278,
+	1278,
+	1093,
+	472,
+	472,
+	1093,
+	1093,
 	724,
-	1231,
-	1082,
-	1219,
-	1251,
-	1251,
-	1251,
-	1251,
-	1251,
-	1251,
-	1251,
-	1099,
+	1278,
+	1278,
+	1278,
+	1083,
 	724,
-	1082,
-	881,
-	878,
-	881,
-	1263,
-	1231,
-	1231,
-	1231,
-	963,
-	561,
-	1231,
-	878,
+	1093,
+	472,
+	472,
+	1093,
+	1093,
+	1278,
+	2146,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1246,
+	1278,
+	1278,
+	1093,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1278,
+	1278,
+	1093,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1246,
+	1083,
+	1083,
+	1278,
+	1278,
+	1083,
+	1246,
+	1083,
+	1278,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1278,
+	1278,
+	1093,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1246,
+	1246,
+	1278,
+	1246,
+	1278,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1278,
+	1278,
+	2122,
+	2142,
+	2122,
+	2142,
+	1246,
+	1278,
+	1278,
+	1246,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1246,
+	1246,
+	1278,
+	1278,
+	1093,
+	885,
+	1278,
+	1278,
+	1278,
+	1278,
+	886,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1246,
+	1093,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	2159,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1278,
+	1278,
+	1278,
+	1246,
+	1278,
+	1278,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1278,
+	1278,
+	1278,
+	466,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1278,
+	1234,
+	885,
+	683,
+	888,
+	727,
+	1246,
+	1093,
+	1234,
+	1266,
+	1266,
+	1266,
+	1266,
+	1266,
+	1266,
+	1266,
+	1110,
+	727,
+	1093,
+	888,
+	885,
+	888,
+	1278,
+	1246,
+	1246,
+	1246,
+	972,
+	562,
+	1246,
+	885,
 	308,
-	1272,
-	1231,
-	1273,
-	1274,
-	1214,
-	1066,
-	1219,
-	1072,
-	1253,
-	1101,
-	1251,
-	1099,
-	1220,
-	1073,
-	1220,
-	1073,
-	1231,
-	1231,
-	2052,
-	2052,
-	2046,
-	1992,
-	2058,
-	2086,
-	2049,
-	2015,
-	2050,
-	2025,
-	2050,
-	2025,
-	2057,
+	1287,
+	1246,
+	1288,
+	1289,
+	1229,
+	1077,
+	1234,
+	1083,
+	1268,
+	1112,
+	1266,
+	1110,
+	1235,
+	1084,
+	1235,
+	1084,
+	1246,
+	1246,
+	2067,
+	2067,
+	2061,
+	2007,
 	2073,
-	2039,
-	1893,
-	1893,
-	963,
-	1219,
-	2131,
-	2052,
-	1847,
-	2052,
-	1263,
-	2144,
-	1251,
-	1038,
-	1039,
-	1192,
-	1251,
-	1038,
-	1039,
-	1118,
-	1231,
-	1251,
-	1274,
-	1038,
-	1039,
-	1118,
-	1231,
-	1251,
-	1273,
-	1082,
-	1192,
-	1231,
-	1251,
-	1263,
-	1231,
-	1263,
-	1231,
-	1072,
-	1263,
-	1251,
-	1231,
-	1263,
-	1231,
-	1231,
-	1231,
-	1072,
-	1263,
-	1251,
-	1263,
-	1263,
-	1231,
-	1263,
-	1231,
-	1231,
-	1231,
-	1251,
-	1099,
-	1219,
-	1251,
-	1272,
-	878,
-	680,
-	881,
-	724,
-	1219,
-	724,
-	878,
-	881,
-	1263,
-	1231,
-	1231,
+	2101,
+	2064,
+	2030,
+	2065,
+	2040,
+	2065,
+	2040,
+	2072,
+	2088,
+	2054,
+	1908,
+	1908,
+	972,
+	1234,
+	2146,
+	2067,
+	1862,
+	2067,
+	1278,
+	2159,
+	1266,
+	1048,
+	1049,
+	1207,
+	1266,
+	1048,
+	1049,
+	1129,
+	1246,
+	1266,
+	1289,
+	1048,
+	1049,
+	1129,
+	1246,
+	1266,
+	1288,
+	1093,
+	1207,
+	1246,
+	1266,
+	1278,
+	1246,
+	1278,
+	1246,
+	1083,
+	1278,
+	1266,
+	1246,
+	1278,
+	1246,
+	1246,
+	1246,
+	1083,
+	1278,
+	1266,
+	1278,
+	1278,
+	1246,
+	1278,
+	1246,
+	1246,
+	1246,
+	1266,
+	1110,
+	1234,
+	1266,
+	1287,
+	885,
+	683,
+	888,
+	727,
+	1234,
+	727,
+	885,
+	888,
+	1278,
+	1246,
+	1246,
 	308,
-	1263,
-	1072,
-	1263,
-	1251,
-	1263,
-	1231,
-	1263,
-	1231,
-	1231,
-	1231,
-	1251,
-	1099,
-	1219,
-	1251,
-	1272,
-	881,
-	724,
-	878,
-	680,
-	1219,
-	724,
-	881,
-	878,
-	881,
-	1263,
-	1231,
-	963,
-	561,
-	1231,
+	1278,
+	1083,
+	1278,
+	1266,
+	1278,
+	1246,
+	1278,
+	1246,
+	1246,
+	1246,
+	1266,
+	1110,
+	1234,
+	1266,
+	1287,
+	888,
+	727,
+	885,
+	683,
+	1234,
+	727,
+	888,
+	885,
+	888,
+	1278,
+	1246,
+	972,
+	562,
+	1246,
 	308,
-	1263,
-	1263,
-	911,
-	1072,
-	1263,
-	1251,
-	1263,
-	1231,
-	1263,
-	1231,
-	1231,
-	1231,
-	1219,
-	1251,
-	1272,
-	1231,
-	1082,
-	1082,
-	1231,
+	1278,
+	1278,
+	920,
+	1083,
+	1278,
+	1266,
+	1278,
+	1246,
+	1278,
+	1246,
+	1246,
+	1246,
+	1234,
+	1266,
+	1287,
+	1246,
+	1093,
+	1093,
+	1246,
 	308,
-	963,
-	1219,
-	1263,
-	1219,
-	1251,
-	1272,
-	1231,
-	1082,
-	1214,
-	1066,
-	1220,
-	1073,
-	1220,
-	1073,
-	1066,
-	1082,
-	1231,
+	972,
+	1234,
+	1278,
+	1234,
+	1266,
+	1287,
+	1246,
+	1093,
+	1229,
+	1077,
+	1235,
+	1084,
+	1235,
+	1084,
+	1077,
+	1093,
+	1246,
 	308,
-	2073,
-	963,
-	1219,
-	1263,
-	1219,
-	1251,
-	1272,
-	1231,
-	1082,
-	1251,
-	1099,
-	1099,
-	1082,
-	1231,
+	2088,
+	972,
+	1234,
+	1278,
+	1234,
+	1266,
+	1287,
+	1246,
+	1093,
+	1266,
+	1110,
+	1110,
+	1093,
+	1246,
 	308,
-	963,
-	1219,
-	1263,
-	2131,
-	1263,
-	1219,
-	1251,
-	1272,
-	1231,
-	1082,
-	1251,
-	1099,
-	1231,
-	963,
-	1219,
+	972,
+	1234,
+	1278,
+	2146,
+	1278,
+	1234,
+	1266,
+	1287,
+	1246,
+	1093,
+	1266,
+	1110,
+	1246,
+	972,
+	1234,
 	308,
-	2144,
-	1219,
-	1272,
-	1082,
-	724,
+	2159,
+	1234,
+	1287,
+	1093,
+	727,
 	-1,
-	878,
-	680,
-	881,
-	724,
-	1082,
-	724,
-	1893,
-	1893,
-	963,
-	1219,
-	1219,
-	1072,
-	1253,
-	1101,
-	1214,
-	1066,
-	1220,
-	1073,
-	1220,
-	1073,
-	1251,
-	1099,
-	1231,
-	1231,
+	885,
+	683,
+	888,
+	727,
+	1093,
+	727,
+	1908,
+	1908,
+	972,
+	1234,
+	1234,
+	1083,
+	1268,
+	1112,
+	1229,
+	1077,
+	1235,
+	1084,
+	1235,
+	1084,
+	1266,
+	1110,
+	1246,
+	1246,
 	308,
-	2052,
+	2067,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
-	{ 0x060001C5, { 0, 1 } },
+	{ 0x060001C7, { 0, 1 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
 {
@@ -1980,7 +1988,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	479,
+	481,
 	s_methodPointers,
 	17,
 	s_adjustorThunks,
