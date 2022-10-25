@@ -354,7 +354,7 @@ public class game_manager : MonoBehaviour
 		if (!bFake && nFake == 0&&(!TrapOff))
 		{
 			progressTime2 = (Time.time - startTime2);
-			if (progressTime2 >= 90)
+			if (progressTime2 >= 10)
 			{
 				startTime2 = Time.time;
 				if (UnityEngine.Random.Range(0, 2) == 0)
@@ -420,7 +420,7 @@ public class game_manager : MonoBehaviour
 
 	public IEnumerator promo()
 	{
-		string link = "https://alienfarm.ru/api/promo?data=";
+		string link = "https://cryptoferm.ru/api/promo?data=";
 		TokenData myObject = new TokenData();
 		myObject.user_token = GetMacAddress();
 		link += System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(JsonUtility.ToJson(myObject)));

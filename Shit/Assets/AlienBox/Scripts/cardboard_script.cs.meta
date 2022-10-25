@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 6c43f11a86a3a4518a4a3ec3443c6f34
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pop_point: {instanceID: 0}
+  - chara_pref1: {instanceID: 0}
+  - chara_pref2: {instanceID: 0}
+  - chara_pref3: {instanceID: 0}
+  - chara_pref4: {instanceID: 0}
+  - chara_pref5: {instanceID: 0}
+  - chara_pref6: {instanceID: 0}
+  - chara_pref7: {instanceID: 0}
+  - chara_pref8: {instanceID: 0}
+  - chara_pref9: {instanceID: 0}
+  - chara_pref10: {instanceID: 0}
+  - chara_pref11: {instanceID: 0}
+  - chara_pref12: {fileID: 186294, guid: fcf99375681044118b94e051faec2f84, type: 3}
+  - rare_pref1: {instanceID: 0}
+  - rare_pref2: {instanceID: 0}
+  - data_manager: {instanceID: 0}
+  - gold_text: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
